@@ -1,111 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7719b259-9ce9-4851-bc77-6637fc031ddf" name="Default" comment="updater-dev corrigidos">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/API-MS-Win-Core-Debug-L1-1-0.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/API-MS-Win-Core-DelayLoad-L1-1-0.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/API-MS-Win-Core-ErrorHandling-L1-1-0.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/API-MS-Win-Core-File-L1-1-0.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/API-MS-Win-Core-Handle-L1-1-0.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/API-MS-Win-Core-Heap-L1-1-0.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/API-MS-Win-Core-IO-L1-1-0.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/API-MS-Win-Core-LibraryLoader-L1-1-0.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/API-MS-Win-Core-LocalRegistry-L1-1-0.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/API-MS-Win-Core-Localization-L1-1-0.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/API-MS-Win-Core-Misc-L1-1-0.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/API-MS-Win-Core-ProcessEnvironment-L1-1-0.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/API-MS-Win-Core-ProcessThreads-L1-1-0.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/API-MS-Win-Core-Profile-L1-1-0.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/API-MS-Win-Core-String-L1-1-0.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/API-MS-Win-Core-Synch-L1-1-0.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/API-MS-Win-Core-SysInfo-L1-1-0.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/API-MS-Win-Security-Base-L1-1-0.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/API-MS-Win-Security-SDDL-L1-1-0.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/CRYPT32.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/DNSAPI.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/KERNELBASE.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/MSASN1.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/MSVCP120.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/MSVCR120.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/NSI.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/PyQt5.QtCore.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/PyQt5.QtGui.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/PyQt5.QtPrintSupport.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/PyQt5.QtSql.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/PyQt5.QtWebKit.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/PyQt5.QtWidgets.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/PyQt5/plugins/platforms/qminimal.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/PyQt5/plugins/platforms/qoffscreen.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/PyQt5/plugins/platforms/qwindows.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/PyQt5/plugins/sqldrivers/qsqlite.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/PyQt5/plugins/sqldrivers/qsqlmysql.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/PyQt5/plugins/sqldrivers/qsqlodbc.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/PyQt5/plugins/sqldrivers/qsqlpsql.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/Qt5Core.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/Qt5Gui.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/Qt5Multimedia.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/Qt5Network.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/Qt5Positioning.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/Qt5PrintSupport.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/Qt5Qml.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/Qt5Quick.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/Qt5Sensors.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/Qt5Sql.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/Qt5WebKit.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/Qt5Widgets.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/Updater-dev.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/Updater-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/_hashlib.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/_mysql.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/bz2.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/d3d8thk.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/d3d9.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/dwmapi.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icudt52.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icuin52.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icuuc52.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/libEGL.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/libGLESv2.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/platforms/qwindows.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/python27.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/select.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/sip.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/sqldrivers/qsqlmysql.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/unicodedata.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Updater-dev.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/PyQt5.QtCore.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/PyQt5.QtGui.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/PyQt5.QtPrintSupport.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/PyQt5.QtSql.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/PyQt5.QtWebKit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/PyQt5.QtWidgets.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/_hashlib.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/_mysql.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/bz2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/select.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/unicodedata.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/stylesheet.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/stylesheet2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setup.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheet2.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../BACKUP/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tela.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/.idea/anbima.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/vcs.xml" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BACKUP/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../BACKUP/.idea/workspace.xml" />
+    <list default="true" id="7719b259-9ce9-4851-bc77-6637fc031ddf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlador.py" afterPath="$PROJECT_DIR$/controlador.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entregador.py" afterPath="$PROJECT_DIR$/entregador.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/secretary.py" afterPath="$PROJECT_DIR$/secretary.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../updater-client/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/Configer.py" afterPath="$PROJECT_DIR$/../updater-client/Configer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/Controlador.py" afterPath="$PROJECT_DIR$/../updater-client/Controlador.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/Entregador.py" afterPath="$PROJECT_DIR$/../updater-client/Entregador.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/secretary.py" afterPath="$PROJECT_DIR$/../updater-client/secretary.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/teste.txt" afterPath="$PROJECT_DIR$/../updater-client/teste.txt" />
     </list>
     <ignored path="secretary.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -203,7 +100,7 @@
       <file leaf-file-name="entregador.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/entregador.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23809524">
+            <state vertical-scroll-proportion="0.35639414">
               <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding>
                 <element signature="e#314#456#0" expanded="false" />
@@ -267,9 +164,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1592" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
+    <option name="width" value="1554" />
     <option name="height" value="916" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -602,24 +499,31 @@
       <option name="number" value="Default" />
       <updated>1450099088272</updated>
     </task>
+    <task id="LOCAL-00001" summary="updater-dev corrigidos">
+      <created>1452107307968</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1452107307968</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1592" y="-8" width="1616" height="916" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1554" height="916" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.115409" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.120132014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.4977806" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23421052" sideWeight="0.5025" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30501932" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2921493" sideWeight="0.485" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33976835" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2072072" sideWeight="0.4975" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32947233" sideWeight="0.4977806" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1111,7 +1015,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/entregador.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23809524">
+        <state vertical-scroll-proportion="0.35639414">
           <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
             <element signature="e#314#456#0" expanded="false" />
