@@ -1,16 +1,14 @@
 # -*- coding: utf-8 -*-
 import time
 import datetime
-
-
 import PyQt5.QtCore
 from  PyQt5.QtCore import QObject
 from PyQt5 import QtCore,QtWidgets, QtSql
 from PyQt5.QtCore import Qt
-
 import os
 from os import walk,stat
 
+#Classes de Acesso ao DB
 class QtSqlConnector(QtCore.QObject):
 
     list_dbs={}
@@ -114,7 +112,6 @@ class QtSqlConnector(QtCore.QObject):
                 self.gm.enviar_msg_('Erro no fechamento da Conexao'+str(sys.exc_info()[1]),str(self),"ERRO")
 
             pass
-
 class Easy_Query(QObject):
 
     mensagem_ = QtCore.pyqtSignal(str)
@@ -257,6 +254,7 @@ class Easy_Query(QObject):
 
         return respo
 
+#Classe que arruma tudo no DB
 class secretary(QObject):
 
     def data_agora(self):
@@ -274,9 +272,15 @@ class secretary(QObject):
         lista_dados_projeto = self.eq_.Query_Result(query_table_projeto)
         return lista_dados_projeto[0]
 
+    def excluir_so_db(self,nome_projeto):
+        query_deletar_project='delete from python.updater_project_version where projeto="{0}";'.format(nome_projeto)
+        query_deletar_files = "delete from python.updater_files_version where projeto='{0}';".format(nome_projeto)
+        self.eq_.Query_no_Result(query_deletar_project)
+        self.eq_.Query_no_Result(query_deletar_files)
 
-    #parametros_projeto -> parametros_projeto
-    #{'VERSAO':'11234','DATAMOD':'2015-11-11 16:04:51','DIRETORIO':'C:\Users/User/Desktop/KondorPythonProjects-master/BACKUP','REPOSITORIO':'C:\Users\User\Desktop\KondorPythonProjects-master\BACKUP','TIPOREPOSITORIO':'ASDF'},{'projeto':'testando_registra_deploy','file':'arquivo1','datamod':'2015-12-15 17:23:51'},{'projeto':'testando_registra_deploy','file':'arquivo2','datamod':'2015-12-15 17:23:51'},{'projeto':'testando_registra_deploy','file':'arquivo3','datamod':'2015-12-15 17:23:51'}
+    def atualizar_dados_projeto(self,nome_projeto,diretorio,repositorio,tiporeposirotio,executavel):
+        query_atualizar = "UPDATE python.updater_project_version SET DIRETORIO ='{0}', REPOSITORIO='{1}',TIPOREPOSITORIO='{2}',EXECUTAVEL='{3}' WHERE PROJETO='{4}' ;".format(diretorio,repositorio,tiporeposirotio,executavel,nome_projeto)
+        self.eq_.Query_no_Result(query_atualizar)
 
     def verifica_deploy(self,nome_projeto,parametros_projeto={}):
 
@@ -382,6 +386,8 @@ class secretary(QObject):
         query_projetos = "Select * from python.updater_project_version ;"
         lista_projetos = self.eq_.Query_Result(query_projetos)
         return lista_projetos
+
+#Classes de Leitura dos arquivos no repositorio
 class repositorio_base(QObject):
 
     def __init__(self,parent=None):
@@ -393,7 +399,6 @@ class repositorio_base(QObject):
 
     def sendFiles(self,instrucao_endereco):
         print "sendFiles"
-
 class respositorio_diretorio(repositorio_base) :
 
 
@@ -413,16 +418,6 @@ class respositorio_diretorio(repositorio_base) :
 
         #[datetime.datetime.fromtimestamp(os.stat(y).st_mtime).strftime('%Y-%m-%d %H:%M:%S') for y in lista_saida]
         return lista_saida
-
-
-
-
-
-
-
-
-#a1 = respositorio_diretorio()
-
 
 r1=QtSqlConnector(None,"MYSQL",{"host":"192.168.180.249","schema":"python","user":"root","password":"marisco"},nameConnection="mysql")
 r2=QtSqlConnector(None,"SQLITE",{"db":":memory:"},nameConnection="memory")

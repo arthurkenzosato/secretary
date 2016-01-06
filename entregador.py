@@ -1,7 +1,4 @@
-
 # -*- coding: utf-8 -*-
-
-
 import PyQt5.QtCore
 from  PyQt5.QtCore import QObject
 from PyQt5 import QtCore,QtWidgets, QtSql
@@ -12,14 +9,13 @@ import os
 import shutil
 
 
-
+#mesma coisa que repositorio_base, so q ele consegue copiar para o repositorio
 class delivery_files(QObject):
-
     def __init__(self, parent=None):
         super(delivery_files,self).__init__(parent)
         self.entregador_diretorio = wraper_de_diretorio()
 
-    #mesma coisa que repositorio_base, so q ele consegue copiar para o repositorio
+
 class wraper_de_entrega(QObject):
 
     def __init__(self,parent=None):
@@ -29,7 +25,6 @@ class wraper_de_entrega(QObject):
 
     def sendFiles(self,lista_de_files,endereco_diretorio):
         print "sendFiles"
-
 class wraper_de_diretorio(wraper_de_entrega):
     def __init__(self,parent=None):
         super(wraper_de_entrega,self).__init__(parent)
@@ -59,7 +54,3 @@ class wraper_de_diretorio(wraper_de_entrega):
 
 
         return True
-
-
-#a=delivery_files()
-#print a.entregador_diretorio.sendFiles(['C:/Users/arthur.sato/Desktop/KondorPythonProjects-master/BACKUP/config.txt'],'C:/Users/arthur.sato/Desktop')
