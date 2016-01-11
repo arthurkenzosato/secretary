@@ -2,140 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7719b259-9ce9-4851-bc77-6637fc031ddf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Splash_Kondor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Splash_Kondor_Up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/Splash_Kondor_Up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/_socket.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/_ssl.pyd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icone_suits.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/suits_icon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/suits_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icone_suits.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/suits_icon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/suits_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../updater-client/Splash_Kondor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Configer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/_socket.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/_ssl.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/config.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/logs.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/programas_do_usuario.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/programas_do_usuario.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teste.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/ARCADECLASSIC.TTF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/ARCADE_I.TTF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/ARCADE_N.TTF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/ARCADE_R.TTF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/ARDED___.TTF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/AtuViewer.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/AtuViewer.exe.embed.manifest" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/AtuViewerd.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/AtuViewerd.exe.embed.manifest" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/AtuViewerd.exe_manifest.rc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/AtuViewerd.exe_manifest.res" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/AtuViewerd.ilk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/AtuViewerd.pdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/BATTLEST.TTF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/D3DCompiler_43.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/FACERG__.TTF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/KondorAux.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/KondorAuxd.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/LE_args.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/LE_arquivo.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/LE_bloco.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Later_Executor.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Later_Executord.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Mapeador.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Mapeadord.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/MonitorServicos.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/MonitorServicosd.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/PsExec.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Qt0Xlsx.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Qt5Concurrent.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Qt5Core.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Qt5Gui.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Qt5Multimedia.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Qt5MultimediaQuick_p.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Qt5MultimediaWidgets.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Qt5Network.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Qt5OpenGL.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Qt5PrintSupport.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Qt5Qml.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Qt5Quick.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Qt5Sql.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Qt5Svg.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Qt5V8.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Qt5WebKit.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Qt5WebKitWidgets.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Qt5Widgets.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/QxtCore.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/QxtCored.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/QxtNetwork.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/QxtNetworkd.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/QxtWidgets.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/QxtWidgetsd.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/Updater.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/boost_python-vc100-mt-1_51.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/boost_python-vc100-mt-gd-1_51.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/cmdfake.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/cmdfaked.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/conectado.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/config.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/css.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/desconectado.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/dirpath.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/editor_.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/frameworks.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/homens trab2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/icudt50.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/icuin50.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/icuio50.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/icule50.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/iculx50.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/icutu50.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/icuuc50.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/instrucao.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/layoutsColeta.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/libEGL.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/libGLESv2.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/libXLS.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/libmysql.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/map.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/miner.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/msvcp100.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/msvcr100.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/platforms/qminimal.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/platforms/qminimald.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/platforms/qwindows.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/platforms/qwindowsd.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/pskill.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/pslist.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/python27.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/qwt.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/qwtd.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/sharedfiles.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/shellrunas.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/styleTentativas.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/stylesheet.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../updater-client/AtuViewer/stylesheet_blackOrangea.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/Updater-dev.exe" afterPath="$PROJECT_DIR$/dist/Updater-dev.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/dist/Controlador.exe" afterPath="$PROJECT_DIR$/../updater-client/dist/Controlador.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Updater-dev.py" afterPath="$PROJECT_DIR$/Updater-dev.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlador.py" afterPath="$PROJECT_DIR$/controlador.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entregador.py" afterPath="$PROJECT_DIR$/entregador.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/secretary.py" afterPath="$PROJECT_DIR$/secretary.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheet.txt" afterPath="$PROJECT_DIR$/stylesheet.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../updater-client/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/Configer.py" afterPath="$PROJECT_DIR$/../updater-client/Configer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/Controlador.py" afterPath="$PROJECT_DIR$/../updater-client/Controlador.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/Entregador.py" afterPath="$PROJECT_DIR$/../updater-client/Entregador.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/dist/Controlador.exe.log" afterPath="$PROJECT_DIR$/../updater-client/dist/Controlador.exe.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/dist/logs.txt" afterPath="$PROJECT_DIR$/../updater-client/dist/logs.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/logs.txt" afterPath="$PROJECT_DIR$/../updater-client/logs.txt" />
     </list>
     <ignored path="secretary.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -634,7 +501,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452107973722</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updater-dev">
+      <created>1452538296856</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1452538296856</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -652,6 +525,7 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17945465" sideWeight="0.482821" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.4977806" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23421052" sideWeight="0.5025" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30501932" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -661,7 +535,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17945465" sideWeight="0.517179" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3809524" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.4977806" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -703,7 +576,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updater-dev corrigidos" />
-    <option name="LAST_COMMIT_MESSAGE" value="updater-dev corrigidos" />
+    <MESSAGE value="updater-dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="updater-dev" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
