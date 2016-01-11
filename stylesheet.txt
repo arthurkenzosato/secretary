@@ -479,3 +479,5 @@ QCheckBox::indicator:disabled, QRadioButton::indicator:disabled
 QLabel{
 font-weight: bold;
 }
+
+QWidget[progress_window="true"] {background-image:imagem.png }

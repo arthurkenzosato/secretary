@@ -1,33 +1,148 @@
 # -*- coding: utf-8 -*-
 
-
 from controlador import *
 from PyQt5 import QtCore,QtWidgets,QtGui
 from PyQt5.QtWidgets import *
-
+from PyQt5.QtCore import QEventLoop
+from Configer import configer
+import os,sys,imp
+import threading
 from Templates import *
 
+class WrapperSplashScreen(QtCore.QObject):
+
+    def __init__(self,parent=None):
+        super(WrapperSplashScreen,self).__init__(parent)
+        self.splash_pix = QtGui.QPixmap('Splash_Kondor_Up.png')
+        self.splash = QSplashScreen(self.splash_pix, QtCore.Qt.WindowStaysOnTopHint)
+        self.parent=parent
+
+    def showSplash(self):
+        print "Thread",threading.currentThread()
+        self.splash.show()
+        print "teste",self.parent
+        self.parent.processEvents()
+
+        def emit_depois():
+            print "teste"
+
+        QtCore.QTimer.singleShot(5000, emit_depois)
+
+    def hideSplash(self):
+        self.splash.close()
+
+class ThreadSplash(QtCore.QThread):
 
 
+    def __init__(self,parent=None):
+        super(ThreadSplash,self).__init__(parent)
+        self.parent=parent
+
+    def run(self):
+        self.loop = QEventLoop()
+        print "Dummy",threading.currentThread()
+        self.splash = WrapperSplashScreen(self.loop)
+
+        self.loop.exec_()
+
+class tela_inicial(QtWidgets.QMainWindow):
+    def main_is_frozen(self):
+        return (hasattr(sys, "frozen") or # new py2exe
+                hasattr(sys, "importers") # old py2exe
+                or imp.is_frozen("__main__")) # tools/freeze
+    def get_main_dir(self):
+        if self.main_is_frozen():
+            return os.path.dirname(sys.executable)
+        return os.path.dirname(sys.argv[0])
+    def __init__(self,app_):
+        super(tela_inicial,self).__init__()
+        self.cfg = configer(self.get_main_dir()+"/"+"config.txt")
+        self.cfg.read()
+        self.app = app_
+        if self.cfg.dictado['MODO']=='DEV':
+            self.app2_= QtWidgets.QApplication([])
+            self.app2_.setQuitOnLastWindowClosed(False)
+            self.y = main_window(self.app2_)
+
+        elif self.cfg.dictado['MODO']=='CLIENT':
+            self.app2_= QtWidgets.QApplication([])
+            self.app2_.setQuitOnLastWindowClosed(False)
+            self.y = tela_cliente(self.app2_,self)
+
+
+class tela_cliente(QtWidgets.QMainWindow):
+    def __init__(self,app_,mainw):
+        super(tela_cliente,self).__init__()
+        self.controlador = controlador()
+        self.parentwindow = mainw
+        #icon_path =self.controlador.get_main_dir()  + "/Updater-icon.png"
+        icon_path =self.controlador.get_main_dir() + "/suits_icon.png"
+        icon = QtGui.QIcon(icon_path)
+        self.tray_cliente = QtWidgets.QSystemTrayIcon(icon)
+        self.menu_tray = QtWidgets.QMenu()
+        self.tray_cliente.setContextMenu(self.menu_tray)
+        self.tray_cliente.setToolTip(u"Ola Cliente, eu sou o UPDATER")
+        self.tray_cliente.show()
+
+        #acrescentar funcao de abrir programa
+        def abrir_progama():
+            objeto_ = self.sender()
+            nome =objeto_.property("NAME")
+            self.controlador.instalar_executar_projeto(nome)
+        self.abrirprograma_fnc = abrir_progama
+        self.popula_tray()
+    def popula_tray(self):
+        #Zera toda a tray
+        self.ref_tray=[]
+        self.lista_projetos = self.controlador.pegar_todos_projetos()
+        self.menu_tray.clear()
+        if self.controlador.dbg=='ON':
+            self.controlador.gm.enviar_msg_("ATUALIZACAO INICIADA, tray limpa","MAIN_WINDOW")
+        #Adiciona QAction do novo projeto
+        #abrir_new_project.triggered.connect(self.janelanovoprojeto_fnc)
+        #Adiciona SubMenu dos Projetos
+        #self.menu_tray.addSeparator()
+        self.menu_projetos = self.menu_tray.addMenu("Projetos")
+
+        for projeto in self.lista_projetos:
+            if self.controlador.dbg=='ON':
+                warum = "Projeto adicionado na tray: " + projeto
+                self.controlador.gm.enviar_msg_(warum,"MAIN_WINDOW")
+
+            aba_project = QtWidgets.QAction(projeto,self)
+            aba_project.setProperty("NAME",projeto)
+            self.ref_tray.append(aba_project)
+            self.menu_projetos.addAction(aba_project)
+            aba_project.triggered.connect(self.abrirprograma_fnc)
+        #Adciona QAction Saida do Sistema
+        self.menu_tray.addSeparator()
+        quit_action = QtWidgets.QAction("Sair",self)
+        self.menu_tray.addAction(quit_action)
+        quit_action.triggered.connect(self.parentwindow.app.quit)
 
 class main_window(QtWidgets.QMainWindow):
 
+    showSplash = QtCore.pyqtSignal()
+    hideSplash = QtCore.pyqtSignal()
+
 
     def __init__(self,app_):
-
         super(main_window,self).__init__()
+
         self.controlador = controlador()
-        lista_projetos = self.controlador.pegar_todos_projetos() #lista com o nome de todos os projetos
         icon_path =self.controlador.get_main_dir()  + "/Updater-icon.png"
+
+        icon_path2 = self.controlador.get_main_dir()+'/Splash_Kondor_Up.png'
         icon = QtGui.QIcon(icon_path)
         self.tray_ = QtWidgets.QSystemTrayIcon(icon)
         self.app = app_
-
         #inicializando a janela de edicao
         self.app2= QtWidgets.QApplication([])
         self.app2.setQuitOnLastWindowClosed(False)
         self.y = janela_edicao(self.app2,self)
-
+        self.timer_ = QtCore.QTimer()
+        self.splash_pix = QtGui.QPixmap(icon_path2)
+        self.splash = QSplashScreen(self.splash_pix, QtCore.Qt.WindowStaysOnTopHint)
         #Declarando as funcoes de que as trays contem
         def janela_novo_projeto():
             widgetfinal.setLayout(self.lay1)
@@ -35,9 +150,11 @@ class main_window(QtWidgets.QMainWindow):
             self.show()
         self.janelanovoprojeto_fnc = janela_novo_projeto
         def pre_deploy():
+            self.showSplash.emit()
             objeto_ = self.sender()
             nome =objeto_.property("NAME")
             self.controlador.deploy(nome)
+            self.hideSplash.emit()
         self.predeploy_fnc = pre_deploy
         def pre_edit():
             objeto_ = self.sender()
@@ -50,6 +167,11 @@ class main_window(QtWidgets.QMainWindow):
             self.y.le_executavel2.setText(dict_dados['EXECUTAVEL'])
             self.y.show()
         self.preedit_fnc = pre_edit
+        def abrir_progama():
+            objeto_ = self.sender()
+            nome =objeto_.property("NAME")
+            self.controlador.instalar_executar_projeto(nome)
+        self.instar_fnc = abrir_progama
 
         #Populando a tray
         self.menu_tray = QtWidgets.QMenu()
@@ -106,6 +228,7 @@ class main_window(QtWidgets.QMainWindow):
         self.style = self.arquivo.read()
         self.setStyleSheet(self.style)
 
+
         #Declarando as Funcoes dos Botoes da TELA
         def dialog_1():
             dialog =QtWidgets.QFileDialog(self,"Escolha as pastas  origem ou diretorio")
@@ -144,10 +267,28 @@ class main_window(QtWidgets.QMainWindow):
                 self.show()
         self.tray_.activated.connect(comportamento_tray)
 
+        def timer_tray():
+            self.popula_tray()
+            print "Atualizando"
+
+        self.timer_.timeout.connect(timer_tray)
+        self.timer_.start(self.controlador.t_atuali)
         #abrindo a tray
         self.tray_.setContextMenu(self.menu_tray)
         self.tray_.setToolTip(u"Você está olhando o Updater-Dev! ")
         self.tray_.show()
+
+
+        self.TSpl=ThreadSplash(app_)
+
+        self.TSpl.start()
+        def emit_depois():
+
+            self.hideSplash.connect(self.TSpl.splash.hideSplash)
+            self.showSplash.connect(self.TSpl.splash.showSplash)
+
+
+        QtCore.QTimer.singleShot(1, emit_depois)
 
 
     def popula_tray(self):
@@ -155,6 +296,8 @@ class main_window(QtWidgets.QMainWindow):
         self.ref_tray=[]
         self.lista_projetos = self.controlador.pegar_todos_projetos()
         self.menu_tray.clear()
+        if self.controlador.dbg=='ON':
+            self.controlador.gm.enviar_msg_("ATUALIZACAO INICIADA, tray limpa","MAIN_WINDOW")
         #Adiciona QAction do novo projeto
         abrir_new_project = QtWidgets.QAction("Adicionar Novo Projeto",self)
         self.menu_tray.addAction(abrir_new_project)
@@ -162,18 +305,26 @@ class main_window(QtWidgets.QMainWindow):
         #Adiciona SubMenu dos Projetos
         self.menu_tray.addSeparator()
         self.menu_projetos = self.menu_tray.addMenu("Projetos")
+
         for projeto in self.lista_projetos:
+            if self.controlador.dbg=='ON':
+                warum = "Projeto adicionado na tray: " + projeto
+                self.controlador.gm.enviar_msg_(warum,"MAIN_WINDOW")
             action_= QtWidgets.QAction("Deploy ",self)
-            exclude_ = QtWidgets.QAction("Atualizar/Excluir",self)
+            exclude_ = QtWidgets.QAction("Editar/Excluir",self)
+            instar_ = QtWidgets.QAction("Instalar/Executar",self)
             menu_ = self.menu_projetos.addMenu(projeto)
             action_.setProperty("NAME",projeto)
             exclude_.setProperty("NAME",projeto)
+            instar_.setProperty("NAME",projeto)
             menu_.addAction(action_)
             menu_.addAction(exclude_)
+            menu_.addAction(instar_)
             self.ref_tray.append(menu_)
             self.menu_projetos.addMenu(menu_)
             action_.triggered.connect(self.predeploy_fnc)
             exclude_.triggered.connect(self.preedit_fnc)
+            instar_.triggered.connect(self.instar_fnc)
 
         #Adciona QAction Saida do Sistema
         self.menu_tray.addSeparator()
@@ -283,6 +434,6 @@ class janela_edicao(QtWidgets.QMainWindow):
 
 app = QtWidgets.QApplication([])
 app.setQuitOnLastWindowClosed(False)
-x = main_window(app)
-x.show()
+x = tela_inicial(app)
+#x.show()
 app.exec_()

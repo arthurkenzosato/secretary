@@ -3,18 +3,122 @@ import PyQt5.QtCore
 from  PyQt5.QtCore import QObject
 from PyQt5 import QtCore,QtWidgets, QtSql
 from PyQt5.QtCore import Qt
-
+from PyQt5.QtCore import QProcess
+from Configer import configer
 from secretary import *
 from entregador import *
-import os,imp,sys
+import os,imp,sys,socket
 import datetime
+
+class gestor_de_log(QtCore.QObject):
+    def main_is_frozen(self):
+        return (hasattr(sys, "frozen") or # new py2exe
+                hasattr(sys, "importers") # old py2exe
+                or imp.is_frozen("__main__")) # tools/freeze
+    def get_main_dir(self):
+        if self.main_is_frozen():
+            return os.path.dirname(sys.executable)
+        return os.path.dirname(sys.argv[0])
+
+
+    def __init__(self, obj_ = "/LOGS.txt",modo_op_=  "FILE",connect_print = False,parent=None, debug_ = 0):
+        super(gestor_de_log, self).__init__(parent)
+
+        self.user=socket.gethostname()
+        self.diretorio = self.get_main_dir()
+
+
+        self.obj_ = obj_
+        self.modo_op_ = modo_op_
+        self.debug = debug_
+
+        if self.modo_op_=="CONSOLE" and connect_print:
+
+            def append_(str_):
+                self.obj_.append(str_)
+                self.obj_.moveCursor(QtGui.QTextCursor.End)
+
+            XStream.stdout().messageWritten.connect(append_)
+            XStream.stderr().messageWritten.connect(append_)
+
+
+    def escrever_log(self,msg_, sender,escopo_ = "Normal", fprint = True,cor=""):
+        if self.user=="":
+            self.user =self.get_pc_name()
+
+        reload(sys)
+        sys.setdefaultencoding("latin-1")
+
+        hora_ = datetime.datetime.now()
+        hora = hora_.strftime('%H:%M:%S')
+        sender  = str(sender)
+
+        #
+
+
+        if (self.debug==0 and (escopo_ =="DEBUG" or escopo_== "DEBUG_EXTRA")) or (self.debug==1 and escopo_=="DEBUG_EXTRA"):
+            return
+
+        if cor<>"":
+            msg ='<font color="{0}">'.format(cor)+ "<b>"+sender+r"</b>"+ r"</font>" + " : "+hora+": "+ ('<font color="red">' if escopo_.upper()=="ERRO" else ('<font color="green">' if escopo_.upper()=="FUNCAO" else "")) + escopo_  + (r'</font>' if escopo_.upper()=="ERRO" or escopo_.upper()=="FUNCAO" else "")  +": "+ str(msg_)+ "\n"
+        else:
+            msg = "<b>"+sender+r"</b>"+" : "+hora+": "+ ('<font color="red">' if escopo_.upper()=="ERRO" else ('<font color="green">' if escopo_.upper()=="FUNCAO" else "")) + escopo_ + (r'</font>' if escopo_.upper()=="ERRO" or escopo_.upper()=="FUNCAO" else "") +": "+ str(msg_)+ "\n"
+
+
+
+        if self.modo_op_ =="FILE":
+
+            logs = open(self.diretorio +"/"+ self.obj_,'a')
+            logs.write(msg)
+            logs.close()
+
+        if self.modo_op_ == "CONSOLE":
+            self.obj_.append(msg)
+            self.obj_.moveCursor(QtGui.QTextCursor.End)
+
+
+        if fprint:
+            print (msg)
+
+
+    def set_debug(self,value_debug):
+        self.debug = value_debug
+
+
+class gestor_mensageiro(QtCore.QObject):
+
+    mensagem_sn = QtCore.pyqtSignal(str, str, str,int)
+
+    def enviar_msg_(self, msg_,sender , escopo_="Normal",debug_ = 0):
+
+        self.mensagem_sn.emit(msg_, str(sender), escopo_, debug_)
+
+
+    def __init__(self):
+        super(gestor_mensageiro, self).__init__(parent=None)
 
 
 class controlador(QObject):
     def __init__(self,parent=None):
         super(controlador,self).__init__(parent)
-        self.secretaria =secretary(self)
-        self.entregador = delivery_files(self)
+        self.cfg = configer(self.get_main_dir()+"/"+"config.txt")
+        self.cfg.read()
+        self.list_programas = configer(self.get_main_dir()+"/"+"programas_do_usuario.txt")
+        self.list_programas.read()
+        self.user_diretorio = self.cfg.dictado["DIRETORIO"] # VEM O C:\\
+        self.user_diretorio = self.user_diretorio.replace('\\','/')
+        self.user_modo = self.cfg.dictado["MODO"] #VEM DEV OU CLIENT
+        self.dbg = self.cfg.dictado["DEBUG"] #VEM ON OU OFF
+        self.t_atuali = self.cfg.dictado["T_ATUALIZACAO"] #VEM EM ms
+        self.t_atuali = int(self.t_atuali)
+        self.gm= gestor_mensageiro()
+        self.gl = gestor_de_log(obj_='logs.txt',modo_op_ = "FILE")
+        def msg_(msg_, sender_, escopo_, debug_):
+            self.gl.escrever_log(msg_,sender_,escopo_,debug_,"")
+        self.gm.mensagem_sn.connect(msg_)
+        self.gm.enviar_msg_("PROGRAMA INICIADO","CONTROLADOR")
+        self.secretaria =secretary(self, menssageiro_ = self.gm, debug_=self.dbg )
+        self.entregador = delivery_files(self, menssageiro_ = self.gm, debug_=self.dbg  )
 
     #Funcoes usadas por TELA e TELA2
     def pegar_todos_projetos(self):
@@ -42,6 +146,9 @@ class controlador(QObject):
         verifica = self.secretaria.verifica_deploy(nome_projeto)
         if(verifica==False):
             print "projeto nao existe ainda"
+            if self.dbg == 'ON':
+                warum = "Tentativa de deploy, projeto nao existente no db: " + nome_projeto
+                self.gm.enviar_msg_(warum,"Controlador")
             return False
         else:
             diretorio_projeto= self.secretaria.get_project_info(nome_projeto )
@@ -50,22 +157,66 @@ class controlador(QObject):
             if len(lista_de_files)>0:
                 verifi2 = self.entregador.entregador_diretorio.sendFiles(lista_de_files, diretorio_projeto['REPOSITORIO'], diretorio_projeto['DIRETORIO'])
             else:
+                if self.dbg == 'ON':
+                    warum = "Tentativa de deploy, sem nenhum arquivo modificado, projeto: " + nome_projeto
+                    self.gm.enviar_msg_(warum,"Controlador")
                 return True
 
             if verifi2 == True:
                 self.secretaria.registra_deploy(nome_projeto)
+                if self.dbg == 'ON':
+                    warum = "deploy feito com sucesso: " + nome_projeto
+                    self.gm.enviar_msg_(warum,"Controlador")
                 print "deploy feito com sucesso"
             return True
     def new_project(self,nome_projeto,diretorio,versao,repositorio,tiporepositorio,executavel):
         datamod = self.secretaria.data_agora()
         lista_files_novos = self.secretaria.verifica_deploy(nome_projeto,{'DIRETORIO':diretorio,'VERSAO':versao,'REPOSITORIO':repositorio,'TIPOREPOSITORIO':tiporepositorio,'DATAMOD':datamod,'EXECUTAVEL':executavel})
-
         lista_files_novos = [x['PATH'] for x in lista_files_novos]
         if self.entregador.entregador_diretorio.sendFiles(lista_files_novos, repositorio,diretorio) :
             print "projeto criado"
+            if self.dbg == 'ON':
+                warum = "Projeto criado: " + nome_projeto
+                self.gm.enviar_msg_(warum,"Controlador")
         else:
-            print "Falha na criação do Projeto"
+            print u"Falha na criação do Projeto"
+            if self.dbg == 'ON':
+                warum = "Falha na criacao do Projeto: " + nome_projeto
+                self.gm.enviar_msg_(warum,"Controlador")
 
         return True
+    def instalar_executar_projeto(self,nome_projeto):
+        #verifica se esse projeto ja foi instalado
+        if nome_projeto not in self.list_programas.dictado.keys() :
+            path_updater_projeto=self.instalar_programa(nome_projeto)
+            dict_projeto = {nome_projeto : path_updater_projeto}
+            #escreve o projeto e atualiza
+            self.list_programas.write(dict_projeto)
+            self.list_programas.read()
+            self.executar_programa(self.list_programas.dictado[nome_projeto])
+        else:
+            self.executar_programa(self.list_programas.dictado[nome_projeto])
 
+    #faz o shutil do updater-client
+    def instalar_programa(self,nome_projeto):
+        #cria pasta do novo projeto
+        path_pasta_install = self.user_diretorio + "/" + nome_projeto
+        if not os.path.exists(path_pasta_install):
+            os.makedirs(path_pasta_install)
+        #envia o updater-client pra pasta do novo projeto
+        self.secretaria.instalar_projeto(path_pasta_install,"Z:/TI/QtApps/NewUpdaterClient")
+        #edita o config.txt
+        path_config = path_pasta_install + "/config.txt"
+        arquivo = open(path_config,'w')
+        escrita = 'PROJETO|' + nome_projeto
+        arquivo.write(escrita)
+        arquivo.close()
+        path_executavel_updater = path_pasta_install + "/Controlador.exe"
+        return path_executavel_updater.replace("\\","/")
 
+    def executar_programa(self,path_projeto):
+        process = QProcess()
+        if process.startDetached(path_projeto):
+            self.gm.enviar_msg_(u"Programa aberto com sucesso! ","CONTROLADOR")
+        else:
+            self.gm.enviar_msg_(u"Programa não foi aberto com sucesso","CONTROLADOR")

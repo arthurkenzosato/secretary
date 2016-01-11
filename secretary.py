@@ -6,6 +6,8 @@ from  PyQt5.QtCore import QObject
 from PyQt5 import QtCore,QtWidgets, QtSql
 from PyQt5.QtCore import Qt
 import os
+from entregador import wraper_de_diretorio
+from controlador import *
 from os import walk,stat
 
 #Classes de Acesso ao DB
@@ -116,11 +118,11 @@ class Easy_Query(QObject):
 
     mensagem_ = QtCore.pyqtSignal(str)
 
-    def  __init__(self,mysqldatabase, parent=None,menssageiro_=None, sender_ =""):
+    def  __init__(self,mysqldatabase, parent=None,menssageiro_=None, sender_ ="",debug_ = 'OFF'):
         super(Easy_Query,self).__init__(parent)
 
-        self.gm  =menssageiro_
-
+        self.gm  = menssageiro_
+        self.dbg = debug_
         self.sender_=sender_
         #self.gm.enviar_msg_('Inicializando Easy_Query',self.sender,"DEBUG")
 
@@ -148,8 +150,14 @@ class Easy_Query(QObject):
                 print query.lastError().text()
                 #print u"Erro na execução da query : " + q_
                 self.mensagem_.emit(u"Erro na execucao da query : " + q_)
-
+                if self.dbg == 'ON':
+                    warum = "Erro na execucao da query: " + q_
+                    self.gm.enviar_msg_(warum,"Easy_Query")
                 #self.gm.enviar_msg_('Erro na execucao da Query, '+query.lastError().text(),self.sender_,"ERRO")
+            else:
+                if self.dbg == 'ON':
+                    warum = "Query executada: " + q_
+                    self.gm.enviar_msg_(warum,"Easy_Query")
         return 1
 
     def Query_Result(self,query_,column_types={},auto=[]):
@@ -165,7 +173,14 @@ class Easy_Query(QObject):
             #print query.lastError().text()
             #print "Erro na execução da query : " + query_
             self.mensagem_.emit("Erro na execução da query : " + query_)
+            if self.dbg == 'ON':
+                warum = "Erro na execucao da query: " + query_
+                self.gm.enviar_msg_(warum,"Easy_Query")
             #self.gm.enviar_msg_('Erro na execucao da Query, '+query.lastError().text(),self.sender_,"ERRO")
+        else:
+            if self.dbg == 'ON':
+                warum = "Query executada: " + query_
+                self.gm.enviar_msg_(warum,"Easy_Query")
 
 
         rec = query.record()
@@ -260,12 +275,13 @@ class secretary(QObject):
     def data_agora(self):
         return time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 
-
-    def __init__(self,parent=None):
+    def __init__(self,parent=None,menssageiro_=None,debug_='OFF'):
         super(secretary,self).__init__(parent)
-
-        self.eq_ =Easy_Query(QtSqlConnector.sgetDB("mysql"))
+        self.gm = menssageiro_
+        self.dbg = debug_
+        self.eq_ =Easy_Query(QtSqlConnector.sgetDB("mysql"),menssageiro_=self.gm,debug_=self.dbg)
         self.repo =respositorio_diretorio(self)
+        self.entregador = wraper_de_diretorio(menssageiro_=self.gm,debug_=self.dbg)
 
     def get_project_info(self,nome_projeto):
         query_table_projeto = "select * from python.updater_project_version where projeto = '{0}' ;".format(nome_projeto)
@@ -387,16 +403,19 @@ class secretary(QObject):
         lista_projetos = self.eq_.Query_Result(query_projetos)
         return lista_projetos
 
+    def instalar_projeto(self,path_novo_projeto,path_updaterclient):
+        lista_arquivos=self.entregador.getFiles(path_updaterclient)
+        lista_files = [x['FILE'] for x in lista_arquivos]
+        self.entregador.Update_files(lista_files,path_novo_projeto,path_updaterclient)
+
 #Classes de Leitura dos arquivos no repositorio
 class repositorio_base(QObject):
 
     def __init__(self,parent=None):
         super(repositorio_base,self).__init__(parent)
         self.mytipe =""
-
     def getFiles(self,instrucao_endereco):
         print "getFiles"
-
     def sendFiles(self,instrucao_endereco):
         print "sendFiles"
 class respositorio_diretorio(repositorio_base) :

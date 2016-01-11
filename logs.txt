@@ -1,0 +1,2058 @@
+<b>CONTROLADOR</b> : 17:51:53: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 17:51:53: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 17:51:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:51:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:51:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:51:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:51:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:51:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:51:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:51:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:54:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:54:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:54:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:54:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:54:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:54:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:54:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:54:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:57:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:57:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:57:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:57:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:57:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:57:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:57:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:57:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:00:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:00:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:00:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:00:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:00:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:00:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:00:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:00:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:03:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:03:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:03:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:03:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:03:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:03:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:03:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:03:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:06:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:06:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:06:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:06:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:06:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:06:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:06:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:06:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:09:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:09:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:09:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:09:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:09:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:09:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:09:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:09:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:12:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:12:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:12:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:12:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:12:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:12:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:12:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:12:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:15:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:15:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:15:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:15:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:15:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:15:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:15:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:15:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:18:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:18:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:18:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:18:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:18:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:18:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:18:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:18:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:21:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:21:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:21:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:21:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:21:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:21:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:21:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:21:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:24:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:24:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:24:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:24:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:24:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:24:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:24:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:24:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:27:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:27:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:27:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:27:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:27:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:27:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:27:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:27:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:30:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:30:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:30:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:30:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:30:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:30:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:30:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:30:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:33:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:33:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:33:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:33:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:33:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:33:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:33:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:33:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:36:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:36:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:36:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:36:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:36:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:36:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:36:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:36:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:39:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:39:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:39:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:39:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:39:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:39:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:39:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:39:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:42:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:42:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:42:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:42:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:42:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:42:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:42:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:42:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:45:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:45:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:45:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:45:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:45:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:45:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:45:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:45:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:48:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:48:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:48:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:48:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:48:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:48:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:48:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:48:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:51:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:51:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:51:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:51:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:51:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:51:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:51:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:51:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:54:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:54:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:54:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:54:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:54:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:54:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:54:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:54:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 18:57:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 18:57:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 18:57:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 18:57:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 18:57:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 18:57:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 18:57:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 18:57:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 19:00:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 19:00:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 19:00:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 19:00:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 19:00:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 19:00:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 19:00:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 19:00:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 19:03:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 19:03:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 19:03:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 19:03:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 19:03:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 19:03:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 19:03:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 19:03:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 19:06:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 19:06:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 19:06:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 19:06:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 19:06:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 19:06:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 19:06:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 19:06:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 19:09:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 19:09:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 19:09:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 19:09:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 19:09:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 19:09:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 19:09:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 19:09:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 19:12:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 19:12:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 19:12:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 19:12:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 19:12:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 19:12:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 19:12:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 19:12:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 19:15:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 19:15:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 19:15:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 19:15:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 19:15:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 19:15:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 19:15:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 19:15:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 19:18:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 19:18:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 19:18:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 19:18:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 19:18:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 19:18:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 19:18:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 19:18:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 19:21:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 19:21:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 19:21:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 19:21:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 19:21:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 19:21:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 19:21:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 19:21:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:00:08: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:00:08: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:00:10: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:00:10: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:00:10: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:00:10: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:00:10: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:00:10: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:03:04: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:03:04: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:03:04: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:03:04: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:03:04: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:03:04: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:03:04: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:03:04: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 20:05:28: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 20:05:28: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 20:05:28: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:05:28: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:05:28: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:05:28: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:05:28: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:05:28: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:05:28: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:05:28: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:08:29: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:08:29: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:08:29: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:08:29: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:08:29: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:08:29: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:08:29: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:08:29: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 20:09:53: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 20:09:53: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 20:09:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:09:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:09:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:09:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:09:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:09:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:09:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:09:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:10:03: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:10:03: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:10:03: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:10:03: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:10:03: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:10:03: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:10:03: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:10:03: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:10:13: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:10:13: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:10:13: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:10:13: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:10:13: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:10:13: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:10:13: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:10:13: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:10:23: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:10:23: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:10:23: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:10:23: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:10:23: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:10:23: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:10:23: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:10:23: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:10:33: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:10:33: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:10:33: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:10:33: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:10:33: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:10:33: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:10:33: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:10:33: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:10:43: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:10:43: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:10:43: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:10:43: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:10:43: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:10:43: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:10:43: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:10:43: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:10:53: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:10:53: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:10:53: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:10:53: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:10:53: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:10:53: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:10:53: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:10:53: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:11:03: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:11:03: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:11:03: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:11:03: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:11:03: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:11:03: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:11:03: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:11:03: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:11:13: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:11:13: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:11:13: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:11:13: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:11:13: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:11:13: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:11:13: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:11:13: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:11:23: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:11:23: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:11:23: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:11:23: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:11:23: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:11:23: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:11:23: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:11:23: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:11:33: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:11:33: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:11:33: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:11:33: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:11:33: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:11:33: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:11:33: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:11:33: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:11:44: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:11:44: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:11:44: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:11:44: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:11:44: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:11:44: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:11:44: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:11:44: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:11:54: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:11:54: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:11:54: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:11:54: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:11:54: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:11:54: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:11:54: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:11:54: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:12:04: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:12:04: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:12:04: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:12:04: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:12:04: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:12:04: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:12:04: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:12:04: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:12:14: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:12:14: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:12:14: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:12:14: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:12:14: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:12:14: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:12:14: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:12:14: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:12:24: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:12:24: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:12:24: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:12:24: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:12:24: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:12:24: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:12:24: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:12:24: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:12:34: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:12:34: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:12:34: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:12:34: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:12:34: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:12:34: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:12:34: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:12:34: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:12:44: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:12:44: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:12:44: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:12:44: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:12:44: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:12:44: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:12:44: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:12:44: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:12:54: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:12:54: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:12:54: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:12:54: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:12:54: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:12:54: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:12:54: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:12:54: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:13:04: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:13:04: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:13:04: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:13:04: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:13:04: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:13:04: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:13:04: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:13:04: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:13:14: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:13:14: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:13:14: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:13:14: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:13:14: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:13:14: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:13:14: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:13:14: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:13:24: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:13:24: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:13:24: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:13:24: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:13:24: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:13:24: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:13:24: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:13:24: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:13:34: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:13:34: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:13:34: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:13:34: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:13:34: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:13:34: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:13:34: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:13:34: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:13:44: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:13:44: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:13:44: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:13:44: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:13:44: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:13:44: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:13:44: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:13:44: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:13:54: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:13:54: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:13:54: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:13:54: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:13:54: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:13:54: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:13:54: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:13:54: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:14:04: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:14:04: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:14:04: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:14:04: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:14:04: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:14:04: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:14:04: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:14:04: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:14:14: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:14:14: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:14:14: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:14:14: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:14:14: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:14:14: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:14:14: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:14:14: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:14:24: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:14:24: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:14:24: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:14:24: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:14:24: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:14:24: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:14:24: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:14:24: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 20:14:27: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 20:14:27: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 20:14:27: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:14:27: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:14:27: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:14:27: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:14:27: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:14:27: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:14:27: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:14:27: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:14:37: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:14:37: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:14:37: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:14:37: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:14:37: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:14:37: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:14:37: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:14:37: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:14:47: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:14:47: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:14:47: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:14:47: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:14:47: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:14:47: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:14:47: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:14:47: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:14:57: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:14:57: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:14:57: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:14:57: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:14:57: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:14:57: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:14:57: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:14:57: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 20:15:28: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 20:15:28: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 20:15:28: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:15:28: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:15:28: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:15:28: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:15:28: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:15:28: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:15:28: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:15:28: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:15:38: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:15:38: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:15:38: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:15:38: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:15:38: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:15:38: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:15:38: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:15:38: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:15:48: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:15:48: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:15:48: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:15:48: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:15:48: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:15:48: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:15:48: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:15:48: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:15:58: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:15:58: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:15:58: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:15:58: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:15:58: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:15:58: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:15:58: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:15:58: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:16:08: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:16:08: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:16:08: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:16:08: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:16:08: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:16:08: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:16:08: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:16:08: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:16:18: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:16:18: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:16:18: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:16:18: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:16:18: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:16:18: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:16:18: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:16:18: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:16:28: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:16:28: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:16:28: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:16:28: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:16:28: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:16:28: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:16:28: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:16:28: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:16:38: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:16:38: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:16:38: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:16:38: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:16:38: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:16:38: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:16:38: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:16:38: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:16:48: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:16:48: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:16:48: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:16:48: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:16:48: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:16:48: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:16:48: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:16:48: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:16:58: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:16:58: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:16:58: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:16:58: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:16:58: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:16:58: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:16:58: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:16:58: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:17:08: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:17:08: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:17:08: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:17:08: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:17:08: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:17:08: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:17:08: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:17:08: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:17:18: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:17:18: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:17:18: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:17:18: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:17:18: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:17:18: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:17:18: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:17:18: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:17:28: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:17:28: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:17:28: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:17:28: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:17:28: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:17:28: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:17:28: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:17:28: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 20:17:42: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 20:19:51: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 20:20:00: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:20:00: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:20:00: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:20:00: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:20:00: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:20:00: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:20:00: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:20:00: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:20:21: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:20:21: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:20:21: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:20:21: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:20:21: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:20:21: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:20:21: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:20:21: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 20:20:52: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 20:20:52: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 20:20:52: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:20:52: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:20:52: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:20:52: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:20:52: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:20:52: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:20:52: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:20:52: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 20:37:48: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 20:37:48: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 20:37:48: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:37:48: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:37:48: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:37:48: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:37:48: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:37:48: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:37:48: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:37:48: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 20:37:59: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 20:37:59: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 20:37:59: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:37:59: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:37:59: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:37:59: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:37:59: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:37:59: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:37:59: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:37:59: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 20:38:19: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 20:38:19: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 20:38:19: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:38:19: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:38:19: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:38:19: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:38:19: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:38:19: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:38:19: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:38:19: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:38:29: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:38:29: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:38:29: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:38:29: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:38:29: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:38:29: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:38:29: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:38:29: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:38:39: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:38:39: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:38:39: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:38:39: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:38:39: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:38:39: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:38:39: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:38:39: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:38:49: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:38:49: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:38:49: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:38:49: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:38:49: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:38:49: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:38:49: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:38:49: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:38:59: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:38:59: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:38:59: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:38:59: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:38:59: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:38:59: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:38:59: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:38:59: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:39:09: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:39:09: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:39:09: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:39:09: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:39:09: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:39:09: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:39:09: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:39:09: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:39:19: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:39:19: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:39:19: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:39:19: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:39:19: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:39:19: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:39:19: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:39:19: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:39:29: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:39:29: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:39:29: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:39:29: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:39:29: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:39:29: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:39:29: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:39:29: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:39:39: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:39:39: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:39:39: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:39:39: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:39:39: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:39:39: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:39:39: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:39:39: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:39:49: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:39:49: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:39:49: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:39:49: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:39:49: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:39:49: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:39:49: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:39:49: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:39:59: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:39:59: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:39:59: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:39:59: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:39:59: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:39:59: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:39:59: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:39:59: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:40:09: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:40:09: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:40:09: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:40:09: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:40:09: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:40:09: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:40:09: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:40:09: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:40:19: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:40:19: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:40:19: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:40:19: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:40:19: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:40:19: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:40:19: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:40:19: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:40:29: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:40:29: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:40:29: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:40:29: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:40:29: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:40:29: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:40:29: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:40:29: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 20:50:51: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 20:50:51: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 20:50:51: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:50:51: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:50:51: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:50:51: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:50:51: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:50:51: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:50:51: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:50:51: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 20:51:01: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 20:51:01: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 20:51:01: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:51:01: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:51:01: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:51:01: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:51:01: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:51:01: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:51:01: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:51:01: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:51:11: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:51:11: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:51:11: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:51:11: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:51:11: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:51:11: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:51:11: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:51:11: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:51:21: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:51:21: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:51:21: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:51:21: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:51:21: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:51:21: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:51:21: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:51:21: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:51:31: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:51:31: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:51:31: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:51:31: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:51:31: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:51:31: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:51:31: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:51:31: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:51:41: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:51:41: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:51:41: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:51:41: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:51:41: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:51:41: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:51:41: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:51:41: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:51:51: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:51:51: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:51:51: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:51:51: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:51:51: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:51:51: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:51:51: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:51:51: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:52:01: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:52:01: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:52:01: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:52:01: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:52:01: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:52:01: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:52:01: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:52:01: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:52:11: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:52:11: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:52:11: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:52:11: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:52:11: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:52:11: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:52:11: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:52:11: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:52:21: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:52:21: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:52:21: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:52:21: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:52:21: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:52:21: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:52:21: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:52:21: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:52:31: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:52:31: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:52:31: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:52:31: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:52:31: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:52:31: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:52:31: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:52:31: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:52:41: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:52:41: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:52:41: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:52:41: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:52:41: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:52:41: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:52:41: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:52:41: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:52:51: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:52:51: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:52:51: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:52:51: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:52:51: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:52:51: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:52:51: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:52:51: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:53:01: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:53:01: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:53:01: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:53:01: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:53:01: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:53:01: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:53:01: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:53:01: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:53:11: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:53:11: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:53:11: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:53:11: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:53:11: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:53:11: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:53:11: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:53:11: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:53:21: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:53:21: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:53:21: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:53:21: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:53:21: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:53:21: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:53:21: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:53:21: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:53:31: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:53:31: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:53:31: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:53:31: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:53:31: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:53:31: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:53:31: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:53:31: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:53:41: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:53:41: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:53:41: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:53:41: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:53:41: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:53:41: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:53:41: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:53:41: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:53:51: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:53:51: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:53:51: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:53:51: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:53:51: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:53:51: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:53:51: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:53:51: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:54:01: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:54:01: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:54:01: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:54:01: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:54:01: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:54:01: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:54:01: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:54:01: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:54:11: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:54:11: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:54:11: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:54:11: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:54:11: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:54:11: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:54:11: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:54:11: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 20:55:02: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 20:55:02: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 20:55:02: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:55:02: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:55:02: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:55:02: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:55:02: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:55:02: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:55:02: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:55:02: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 20:55:12: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 20:55:12: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 20:55:12: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 20:55:12: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 20:55:12: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 20:55:12: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 20:55:12: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 20:55:12: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 21:00:08: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 21:00:08: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 21:00:08: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 21:00:08: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 21:00:08: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 21:00:08: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 21:00:08: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 21:00:08: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 21:00:08: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 21:00:08: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 21:00:22: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 21:00:22: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 21:00:22: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 21:00:22: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 21:00:22: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 21:00:22: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 21:00:22: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 21:00:22: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 21:00:22: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 21:00:22: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 21:00:59: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 21:01:16: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 21:05:59: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 21:06:52: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 21:06:52: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 21:06:52: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>CONTROLADOR</b> : 21:07:11: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 21:07:11: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 21:07:11: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 21:07:11: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>CONTROLADOR</b> : 21:07:20: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 21:07:20: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 21:07:20: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 21:07:20: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 21:07:20: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 21:07:20: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 21:07:20: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 21:07:20: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 21:07:20: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 21:10:30: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 21:10:30: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 21:10:30: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 21:10:30: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 21:10:30: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 21:10:30: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 21:10:30: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 21:10:30: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 21:10:30: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 21:12:54: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 21:12:54: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 21:12:54: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 21:12:54: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 21:12:54: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 21:12:54: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 21:12:54: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 21:12:54: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 21:12:54: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 21:13:10: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 21:13:10: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 21:13:10: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 21:13:10: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 21:13:10: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 21:13:10: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 21:13:10: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 21:13:10: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 21:13:10: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 21:13:19: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 21:13:19: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 21:13:19: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 21:13:19: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 21:13:19: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 21:13:19: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 21:13:19: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 21:13:19: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 21:13:19: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 21:15:45: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 21:15:45: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 21:15:45: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 21:15:45: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 21:15:45: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 21:15:45: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 21:15:45: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 21:15:45: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 21:15:45: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 21:16:55: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 21:16:55: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 21:16:55: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 21:16:55: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 21:16:55: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 21:16:55: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 21:16:55: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 21:16:55: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 21:16:55: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 21:20:51: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 21:20:51: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 21:20:51: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 21:20:51: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>CONTROLADOR</b> : 21:23:05: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 21:23:05: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 21:23:05: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 21:23:05: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>CONTROLADOR</b> : 21:23:56: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 21:23:56: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 21:23:56: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 21:23:56: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 21:23:56: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 21:23:56: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 21:23:56: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 21:23:56: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 21:23:56: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 21:24:04: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 21:24:04: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 21:24:04: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 21:24:04: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 21:24:04: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 21:24:04: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 21:24:04: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 21:24:04: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 21:24:04: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 21:28:29: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 21:28:29: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 21:28:29: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 21:28:29: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 21:28:29: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 21:28:29: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 21:28:29: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 21:28:29: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 21:28:29: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 15:50:16: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 15:51:34: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 15:53:10: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 15:53:30: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 15:53:30: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 15:53:30: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 15:53:30: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 15:53:30: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 15:53:30: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 15:53:30: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 15:53:30: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 15:53:30: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 15:53:30: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 15:53:47: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 15:53:47: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 15:53:47: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 15:53:47: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 15:53:47: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 15:53:47: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 15:53:47: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 15:53:47: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 15:53:47: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 16:03:30: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 16:03:30: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:03:30: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:03:30: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:03:30: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:03:30: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:03:30: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:03:30: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:03:30: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:03:30: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:03:38: Normal: Query executada: select * from python.updater_project_version where projeto = 'Updater-client' ;
+<b>Easy_Query</b> : 16:03:40: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:03:40: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:03:40: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:03:40: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:03:40: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:03:40: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:03:40: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:03:40: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 16:04:22: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 16:04:22: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:04:22: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:04:22: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:04:22: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:04:22: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:04:22: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:04:22: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:04:22: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:04:22: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:04:28: Normal: Query executada: select * from python.updater_project_version where projeto = 'Updater-client' ;
+<b>Easy_Query</b> : 16:04:32: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:04:32: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:04:32: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:04:32: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:04:32: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:04:32: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:04:32: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:04:32: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:04:42: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:04:42: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:04:42: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:04:42: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:04:42: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:04:42: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:04:42: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:04:42: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:04:52: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:04:52: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:04:52: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:04:52: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:04:52: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:04:52: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:04:52: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:04:52: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:05:02: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:05:02: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:05:02: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:05:02: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:05:02: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:05:02: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:05:02: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:05:02: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 16:05:19: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:05:19: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:05:19: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:05:19: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:05:19: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:05:19: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:05:19: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:05:19: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:05:19: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 16:06:07: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:06:07: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:06:07: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:06:07: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:06:07: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:06:07: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:06:07: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:06:07: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:06:07: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 16:07:00: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:07:00: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:07:00: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:07:00: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:07:00: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:07:00: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:07:00: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:07:00: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:07:00: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 16:07:20: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:07:20: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:07:20: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:07:20: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:07:20: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:07:20: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:07:20: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:07:20: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:07:20: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 16:10:19: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:10:19: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:10:19: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:10:19: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:10:19: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:10:19: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:10:19: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:10:19: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:10:19: Normal: Projeto adicionado na tray: Updater-dev
+<b>sendFiles</b> : 16:10:39: Normal:  Inicio do envio de arquivos 
+ Endereco repositorio:C:/Users/arthur.sato/Desktop/pasta_kenzo/AtuViewer 
+ Endereco diretorio(origem):
+<b>CONTROLADOR</b> : 16:17:00: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:17:00: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:17:00: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:17:00: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:17:00: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:17:00: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:17:00: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:17:00: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:17:00: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 16:20:11: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:20:11: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:20:11: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:20:11: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:20:11: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:20:11: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:20:11: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:20:11: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:20:11: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 16:21:27: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:21:27: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:21:27: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:21:27: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:21:27: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:21:27: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:21:27: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:21:27: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:21:27: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 16:21:40: Normal: Programa aberto com sucesso! 
+<b>CONTROLADOR</b> : 16:22:13: Normal: Programa aberto com sucesso! 
+<b>CONTROLADOR</b> : 16:22:20: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:22:20: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:22:20: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:22:20: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:22:20: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:22:20: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:22:20: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:22:20: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:22:20: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 16:22:25: Normal: Programa aberto com sucesso! 
+<b>CONTROLADOR</b> : 16:23:13: Normal: Programa aberto com sucesso! 
+<b>CONTROLADOR</b> : 16:25:06: Normal: Programa aberto com sucesso! 
+<b>CONTROLADOR</b> : 16:26:23: Normal: Programa aberto com sucesso! 
+<b>CONTROLADOR</b> : 16:26:37: Normal: Programa aberto com sucesso! 
+<b>CONTROLADOR</b> : 16:26:54: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 16:26:54: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:26:54: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:26:54: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:26:54: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:26:54: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:26:54: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:26:54: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:26:54: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:26:54: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:27:01: Normal: Query executada: select * from python.updater_project_version where projeto = 'PyCadastroPyQt5' ;
+<b>Easy_Query</b> : 16:27:04: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:27:04: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:27:04: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:27:04: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:27:04: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:27:04: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:27:04: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:27:04: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 16:27:20: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:27:20: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:27:20: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:27:20: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:27:20: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:27:20: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:27:20: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:27:20: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:27:20: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 16:28:12: Normal: Programa aberto com sucesso! 
+<b>CONTROLADOR</b> : 16:28:51: Normal: Programa aberto com sucesso! 
+<b>CONTROLADOR</b> : 16:40:24: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:40:24: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:40:24: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:40:24: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:40:24: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:40:24: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:40:24: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:40:24: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:40:24: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 16:41:24: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:41:24: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:41:24: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:41:24: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:41:24: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:41:24: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:41:24: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:41:24: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:41:24: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 16:44:13: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:44:13: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:44:13: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:44:13: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:44:13: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:44:13: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:44:13: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:44:13: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:44:13: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 16:45:22: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:45:22: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:45:22: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:45:22: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:45:22: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:45:22: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:45:22: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:45:22: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:45:22: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 16:48:01: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:48:01: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:48:01: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:48:01: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:48:01: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:48:01: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:48:01: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:48:01: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:48:01: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 16:53:19: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:53:19: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:53:19: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:53:19: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:53:19: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:53:19: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:53:19: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 16:53:19: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:53:19: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 17:01:48: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 17:01:48: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 17:01:48: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:01:48: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:01:48: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>CONTROLADOR</b> : 17:02:02: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 17:02:02: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 17:02:02: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:02:02: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:02:02: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:02:02: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:02:02: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:02:02: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:02:02: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:02:02: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:02:12: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:02:12: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:02:12: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:02:12: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:02:12: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:02:12: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:02:12: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:02:12: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:02:22: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:02:22: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:02:22: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:02:22: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:02:22: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:02:22: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:02:22: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:02:22: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:02:32: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:02:32: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:02:32: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:02:32: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:02:32: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:02:32: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:02:32: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:02:32: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:02:42: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:02:42: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:02:42: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:02:42: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:02:42: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:02:42: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:02:42: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:02:42: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:02:52: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:02:52: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:02:52: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:02:52: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:02:52: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:02:52: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:02:52: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:02:52: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:03:02: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:03:02: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:03:02: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:03:02: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:03:02: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:03:02: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:03:02: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:03:02: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:03:12: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:03:12: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:03:12: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:03:12: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:03:12: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:03:12: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:03:12: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:03:12: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:03:22: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:03:22: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:03:22: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:03:22: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:03:22: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:03:22: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:03:22: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:03:22: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:03:32: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:03:32: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:03:32: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:03:32: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:03:32: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:03:32: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:03:32: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:03:32: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:03:42: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:03:42: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:03:42: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:03:42: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:03:42: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:03:42: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:03:42: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:03:42: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:03:52: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:03:52: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:03:52: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:03:52: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:03:52: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:03:52: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:03:52: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:03:52: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:04:02: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:04:02: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:04:02: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:04:02: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:04:02: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:04:02: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:04:02: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:04:02: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:04:12: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:04:12: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:04:12: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:04:12: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:04:12: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:04:12: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:04:12: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:04:12: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 17:04:17: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 17:04:17: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 17:04:17: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:04:17: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:04:17: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:04:17: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:04:17: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:04:17: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:04:17: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:04:17: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 17:04:22: Normal: Programa aberto com sucesso! 
+<b>Easy_Query</b> : 17:04:27: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:04:27: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:04:27: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:04:27: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:04:27: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:04:27: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:04:27: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:04:27: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:04:37: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:04:37: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:04:37: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:04:37: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:04:37: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:04:37: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:04:37: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:04:37: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:04:47: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:04:47: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:04:47: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:04:47: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:04:47: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:04:47: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:04:47: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:04:47: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:04:57: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:04:57: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:04:57: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:04:57: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:04:57: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:04:57: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:04:57: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:04:57: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:05:07: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:05:07: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:05:07: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:05:07: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:05:07: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:05:07: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:05:07: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:05:07: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:05:17: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:05:17: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:05:17: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:05:17: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:05:17: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:05:17: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:05:17: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:05:17: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 17:05:27: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 17:05:27: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 17:05:27: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 17:05:27: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 17:05:27: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 17:05:27: Normal: Projeto adicionado na tray: testando
+<b>MAIN_WINDOW</b> : 17:05:27: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 17:05:27: Normal: Projeto adicionado na tray: Updater-dev
+<b>CONTROLADOR</b> : 16:45:48: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 16:45:48: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:45:48: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:45:48: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:45:48: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:45:48: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:45:48: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:45:48: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:45:48: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:45:58: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:45:58: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:45:58: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:45:58: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:45:58: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:45:58: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:45:58: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:46:08: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:46:08: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:46:08: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:46:08: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:46:08: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:46:08: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:46:08: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:46:18: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:46:18: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:46:18: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:46:18: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:46:18: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:46:18: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:46:18: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:46:28: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:46:28: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:46:28: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:46:28: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:46:28: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:46:28: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:46:28: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:46:38: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:46:38: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:46:38: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:46:38: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:46:38: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:46:38: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:46:38: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:46:48: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:46:48: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:46:48: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:46:48: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:46:48: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:46:48: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:46:48: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:46:58: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:46:58: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:46:58: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:46:58: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:46:58: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:46:58: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:46:58: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:46:59: Normal: Query executada: REPLACE INTO python.updater_project_version VALUES ('icones','1.0','2016-01-11 16:46:59','C:/Users/arthur.sato/Desktop/icones','C:/Users/arthur.sato/Desktop/bla','local','') 
+<b>Easy_Query</b> : 16:46:59: Normal: Query executada: REPLACE INTO python.updater_files_version (projeto,file,datamod) values ('icones','C:/Users/arthur.sato/Desktop/icones/icone_rese_dogs.png','2016-01-07 18:42:44'),('icones','C:/Users/arthur.sato/Desktop/icones/icone_suits.jpg','2016-01-07 20:53:31'),('icones','C:/Users/arthur.sato/Desktop/icones/icone_suits.png','2016-01-07 18:38:12'),('icones','C:/Users/arthur.sato/Desktop/icones/suits_icon.jpg','2016-01-07 18:30:55'),('icones','C:/Users/arthur.sato/Desktop/icones/Updater-icon.png','2015-12-18 11:52:04')
+<b>Easy_Query</b> : 16:46:59: Normal: Query executada: 
+<b>sendFiles</b> : 16:46:59: Normal:  Inicio do envio de arquivos 
+ Endereco repositorio:C:/Users/arthur.sato/Desktop/bla 
+ Endereco diretorio(origem):C:/Users/arthur.sato/Desktop/icones
+<b>sendFiles</b> : 16:46:59: Normal: copiou o arquivo C:/Users/arthur.sato/Desktop/icones/icone_rese_dogs.png
+<b>sendFiles</b> : 16:46:59: Normal: copiou o arquivo C:/Users/arthur.sato/Desktop/icones/icone_suits.jpg
+<b>sendFiles</b> : 16:46:59: Normal: copiou o arquivo C:/Users/arthur.sato/Desktop/icones/icone_suits.png
+<b>sendFiles</b> : 16:46:59: Normal: copiou o arquivo C:/Users/arthur.sato/Desktop/icones/suits_icon.jpg
+<b>sendFiles</b> : 16:46:59: Normal: copiou o arquivo C:/Users/arthur.sato/Desktop/icones/Updater-icon.png
+<b>Controlador</b> : 16:46:59: Normal: Projeto criado: icones
+<b>Easy_Query</b> : 16:46:59: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:46:59: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:46:59: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:46:59: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:46:59: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:46:59: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:46:59: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:46:59: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:47:08: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:47:08: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:47:08: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:47:08: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:47:08: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:47:08: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:47:08: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:47:08: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:47:18: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:47:18: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:47:18: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:47:18: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:47:18: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:47:18: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:47:18: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:47:18: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:47:28: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:47:28: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:47:28: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:47:28: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:47:28: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:47:28: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:47:28: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:47:28: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:47:38: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:47:38: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:47:38: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:47:38: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:47:38: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:47:38: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:47:38: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:47:38: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:47:44: Normal: Query executada: select * from python.updater_project_version where projeto = 'icones' ;
+<b>Easy_Query</b> : 16:47:44: Normal: Query executada: select * from python.updater_files_version where projeto = 'icones' ;
+<b>Easy_Query</b> : 16:47:44: Normal: Query executada: select * from python.updater_project_version where projeto = 'icones' ;
+<b>Controlador</b> : 16:47:44: Normal: Tentativa de deploy, sem nenhum arquivo modificado, projeto: icones
+<b>Easy_Query</b> : 16:47:48: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:47:48: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:47:48: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:47:48: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:47:48: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:47:48: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:47:48: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:47:48: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:47:58: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:47:58: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:47:58: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:47:58: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:47:58: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:47:58: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:47:58: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:47:58: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:48:08: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:48:08: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:48:08: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:48:08: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:48:08: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:48:08: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:48:08: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:48:08: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:48:18: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:48:18: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:48:18: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:48:18: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:48:18: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:48:18: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:48:18: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:48:18: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:48:21: Normal: Query executada: select * from python.updater_project_version where projeto = 'PyCadastroPyQt5' ;
+<b>Easy_Query</b> : 16:48:28: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:48:28: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:48:28: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:48:28: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:48:28: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:48:28: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:48:28: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:48:28: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:48:33: Normal: Query executada: select * from python.updater_project_version where projeto = 'icones' ;
+<b>Easy_Query</b> : 16:48:35: Normal: Query executada: delete from python.updater_project_version where projeto="icones"
+<b>Easy_Query</b> : 16:48:35: Normal: Query executada: 
+<b>Easy_Query</b> : 16:48:35: Normal: Query executada: delete from python.updater_files_version where projeto='icones'
+<b>Easy_Query</b> : 16:48:35: Normal: Query executada: 
+<b>Easy_Query</b> : 16:48:35: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:48:35: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:48:35: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:48:35: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:48:35: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:48:35: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:48:35: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:48:38: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:48:38: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:48:38: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:48:38: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:48:38: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:48:38: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:48:38: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:48:43: Normal: Query executada: REPLACE INTO python.updater_project_version VALUES ('icones','1.0','2016-01-11 16:48:42','C:/Users/arthur.sato/Desktop/icones','C:/Users/arthur.sato/Desktop/bla','local','') 
+<b>Easy_Query</b> : 16:48:43: Normal: Query executada: REPLACE INTO python.updater_files_version (projeto,file,datamod) values ('icones','C:/Users/arthur.sato/Desktop/icones/icone_rese_dogs.png','2016-01-07 18:42:44'),('icones','C:/Users/arthur.sato/Desktop/icones/icone_suits.jpg','2016-01-07 20:53:31'),('icones','C:/Users/arthur.sato/Desktop/icones/icone_suits.png','2016-01-07 18:38:12'),('icones','C:/Users/arthur.sato/Desktop/icones/suits_icon.jpg','2016-01-07 18:30:55'),('icones','C:/Users/arthur.sato/Desktop/icones/Updater-icon.png','2015-12-18 11:52:04')
+<b>Easy_Query</b> : 16:48:43: Normal: Query executada: 
+<b>sendFiles</b> : 16:48:43: Normal:  Inicio do envio de arquivos 
+ Endereco repositorio:C:/Users/arthur.sato/Desktop/bla 
+ Endereco diretorio(origem):C:/Users/arthur.sato/Desktop/icones
+<b>sendFiles</b> : 16:48:43: Normal: copiou o arquivo C:/Users/arthur.sato/Desktop/icones/icone_rese_dogs.png
+<b>sendFiles</b> : 16:48:43: Normal: copiou o arquivo C:/Users/arthur.sato/Desktop/icones/icone_suits.jpg
+<b>sendFiles</b> : 16:48:43: Normal: copiou o arquivo C:/Users/arthur.sato/Desktop/icones/icone_suits.png
+<b>sendFiles</b> : 16:48:43: Normal: copiou o arquivo C:/Users/arthur.sato/Desktop/icones/suits_icon.jpg
+<b>sendFiles</b> : 16:48:43: Normal: copiou o arquivo C:/Users/arthur.sato/Desktop/icones/Updater-icon.png
+<b>Controlador</b> : 16:48:43: Normal: Projeto criado: icones
+<b>Easy_Query</b> : 16:48:43: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:48:43: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:48:43: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:48:43: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:48:43: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:48:43: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:48:43: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:48:43: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:48:48: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:48:48: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:48:48: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:48:48: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:48:48: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:48:48: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:48:48: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:48:48: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:48:58: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:48:58: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:48:58: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:48:58: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:48:58: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:48:58: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:48:58: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:48:58: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:49:08: Normal: Query executada: select * from python.updater_project_version where projeto = 'PyCadastroPyQt5' ;
+<b>Easy_Query</b> : 16:49:08: Normal: Query executada: select * from python.updater_files_version where projeto = 'PyCadastroPyQt5' ;
+<b>Easy_Query</b> : 16:49:08: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/abc.pyc' 
+<b>Easy_Query</b> : 16:49:08: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:08: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/API-MS-Win-Core-Debug-L1-1-0.dll' 
+<b>Easy_Query</b> : 16:49:08: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:08: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/API-MS-Win-Core-DelayLoad-L1-1-0.dll' 
+<b>Easy_Query</b> : 16:49:08: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:08: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/API-MS-Win-Core-ErrorHandling-L1-1-0.dll' 
+<b>Easy_Query</b> : 16:49:08: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:09: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/API-MS-Win-Core-File-L1-1-0.dll' 
+<b>Easy_Query</b> : 16:49:09: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:09: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/API-MS-Win-Core-Handle-L1-1-0.dll' 
+<b>Easy_Query</b> : 16:49:09: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:09: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/API-MS-Win-Core-Heap-L1-1-0.dll' 
+<b>Easy_Query</b> : 16:49:09: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:09: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/API-MS-Win-Core-IO-L1-1-0.dll' 
+<b>Easy_Query</b> : 16:49:09: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:09: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/API-MS-Win-Core-LibraryLoader-L1-1-0.dll' 
+<b>Easy_Query</b> : 16:49:09: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:09: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/API-MS-Win-Core-Localization-L1-1-0.dll' 
+<b>Easy_Query</b> : 16:49:10: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:10: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/API-MS-Win-Core-LocalRegistry-L1-1-0.dll' 
+<b>Easy_Query</b> : 16:49:10: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:10: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/API-MS-Win-Core-Misc-L1-1-0.dll' 
+<b>Easy_Query</b> : 16:49:10: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:10: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/API-MS-Win-Core-ProcessEnvironment-L1-1-0.dll' 
+<b>Easy_Query</b> : 16:49:10: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:10: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/API-MS-Win-Core-ProcessThreads-L1-1-0.dll' 
+<b>Easy_Query</b> : 16:49:10: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:10: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/API-MS-Win-Core-Profile-L1-1-0.dll' 
+<b>Easy_Query</b> : 16:49:10: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:11: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/API-MS-Win-Core-String-L1-1-0.dll' 
+<b>Easy_Query</b> : 16:49:11: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:11: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/API-MS-Win-Core-Synch-L1-1-0.dll' 
+<b>Easy_Query</b> : 16:49:11: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:11: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/API-MS-Win-Core-SysInfo-L1-1-0.dll' 
+<b>Easy_Query</b> : 16:49:11: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:11: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/API-MS-Win-Security-Base-L1-1-0.dll' 
+<b>Easy_Query</b> : 16:49:11: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:11: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/API-MS-Win-Security-SDDL-L1-1-0.dll' 
+<b>Easy_Query</b> : 16:49:11: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:11: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/atexit.pyc' 
+<b>Easy_Query</b> : 16:49:11: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:12: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/base64.pyc' 
+<b>Easy_Query</b> : 16:49:12: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:12: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/bdb.pyc' 
+<b>Easy_Query</b> : 16:49:12: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:12: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/bisect.pyc' 
+<b>Easy_Query</b> : 16:49:12: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:12: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/bs4/builder/_html5lib.pyc' 
+<b>Easy_Query</b> : 16:49:12: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:12: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/bs4/builder/_htmlparser.pyc' 
+<b>Easy_Query</b> : 16:49:12: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:13: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/bs4/builder/_lxml.pyc' 
+<b>Easy_Query</b> : 16:49:13: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:13: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/bs4/builder/__init__.pyc' 
+<b>Easy_Query</b> : 16:49:13: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:13: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/bs4/dammit.pyc' 
+<b>Easy_Query</b> : 16:49:13: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:13: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/bs4/element.pyc' 
+<b>Easy_Query</b> : 16:49:13: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:13: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/bs4/__init__.pyc' 
+<b>Easy_Query</b> : 16:49:13: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:13: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/bz2.pyc' 
+<b>Easy_Query</b> : 16:49:13: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:14: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/bz2.pyd' 
+<b>Easy_Query</b> : 16:49:14: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:14: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/calendar.pyc' 
+<b>Easy_Query</b> : 16:49:14: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:14: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/cchardet._cchardet.pyd' 
+<b>Easy_Query</b> : 16:49:14: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:14: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/cchardet/_cchardet.pyc' 
+<b>Easy_Query</b> : 16:49:14: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:14: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/cchardet/__init__.pyc' 
+<b>Easy_Query</b> : 16:49:14: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:14: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/big5freq.pyc' 
+<b>Easy_Query</b> : 16:49:14: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:15: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/big5prober.pyc' 
+<b>Easy_Query</b> : 16:49:15: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:15: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/chardistribution.pyc' 
+<b>Easy_Query</b> : 16:49:15: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:15: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/charsetgroupprober.pyc' 
+<b>Easy_Query</b> : 16:49:15: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:15: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/charsetprober.pyc' 
+<b>Easy_Query</b> : 16:49:15: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:15: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/codingstatemachine.pyc' 
+<b>Easy_Query</b> : 16:49:15: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:15: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/compat.pyc' 
+<b>Easy_Query</b> : 16:49:15: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:16: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/constants.pyc' 
+<b>Easy_Query</b> : 16:49:16: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:16: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/cp949prober.pyc' 
+<b>Easy_Query</b> : 16:49:16: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:16: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/escprober.pyc' 
+<b>Easy_Query</b> : 16:49:16: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:16: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/escsm.pyc' 
+<b>Easy_Query</b> : 16:49:16: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:16: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/eucjpprober.pyc' 
+<b>Easy_Query</b> : 16:49:16: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:16: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/euckrfreq.pyc' 
+<b>Easy_Query</b> : 16:49:16: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:17: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/euckrprober.pyc' 
+<b>Easy_Query</b> : 16:49:17: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:17: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/euctwfreq.pyc' 
+<b>Easy_Query</b> : 16:49:17: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:17: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/euctwprober.pyc' 
+<b>Easy_Query</b> : 16:49:18: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:18: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/gb2312freq.pyc' 
+<b>Easy_Query</b> : 16:49:18: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:18: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/gb2312prober.pyc' 
+<b>Easy_Query</b> : 16:49:18: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:18: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/hebrewprober.pyc' 
+<b>Easy_Query</b> : 16:49:18: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:18: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/jisfreq.pyc' 
+<b>Easy_Query</b> : 16:49:18: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:18: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/jpcntx.pyc' 
+<b>Easy_Query</b> : 16:49:18: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:19: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/langbulgarianmodel.pyc' 
+<b>Easy_Query</b> : 16:49:19: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:19: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/langcyrillicmodel.pyc' 
+<b>Easy_Query</b> : 16:49:19: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:19: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/langgreekmodel.pyc' 
+<b>Easy_Query</b> : 16:49:19: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:19: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/langhebrewmodel.pyc' 
+<b>Easy_Query</b> : 16:49:19: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:19: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/langhungarianmodel.pyc' 
+<b>Easy_Query</b> : 16:49:19: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:19: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/langthaimodel.pyc' 
+<b>Easy_Query</b> : 16:49:19: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:20: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/latin1prober.pyc' 
+<b>Easy_Query</b> : 16:49:20: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:20: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/mbcharsetprober.pyc' 
+<b>Easy_Query</b> : 16:49:20: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:20: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/mbcsgroupprober.pyc' 
+<b>Easy_Query</b> : 16:49:20: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:20: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/mbcssm.pyc' 
+<b>Easy_Query</b> : 16:49:20: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:20: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/sbcharsetprober.pyc' 
+<b>Easy_Query</b> : 16:49:20: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:21: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/sbcsgroupprober.pyc' 
+<b>Easy_Query</b> : 16:49:21: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:21: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/sjisprober.pyc' 
+<b>Easy_Query</b> : 16:49:21: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:21: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/universaldetector.pyc' 
+<b>Easy_Query</b> : 16:49:21: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:21: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/utf8prober.pyc' 
+<b>Easy_Query</b> : 16:49:21: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:21: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/charade/__init__.pyc' 
+<b>Easy_Query</b> : 16:49:21: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:21: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/ClientBloomberg.pyc' 
+<b>Easy_Query</b> : 16:49:22: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:22: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/cmd.pyc' 
+<b>Easy_Query</b> : 16:49:22: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:22: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/codecs.pyc' 
+<b>Easy_Query</b> : 16:49:22: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:22: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/collections.pyc' 
+<b>Easy_Query</b> : 16:49:22: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:22: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/cookielib.pyc' 
+<b>Easy_Query</b> : 16:49:22: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:22: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/copy.pyc' 
+<b>Easy_Query</b> : 16:49:23: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:23: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/copy_reg.pyc' 
+<b>Easy_Query</b> : 16:49:23: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:23: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/CRYPT32.dll' 
+<b>Easy_Query</b> : 16:49:23: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:23: Normal: Query executada: delete from python.updater_files_version where file = 'C:/py_workspace/KondorPythonProjects/PyCadastroPyQt5/dist/ctypes/_endian.pyc' 
+<b>Easy_Query</b> : 16:49:23: Normal: Query executada: 
+<b>CONTROLADOR</b> : 16:49:50: Normal: PROGRAMA INICIADO
+<b>CONTROLADOR</b> : 16:49:50: Normal: PROGRAMA INICIADO
+<b>Easy_Query</b> : 16:49:50: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:49:50: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:49:50: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:49:50: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:49:50: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:49:50: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:49:50: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:49:50: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:49:59: Normal: Query executada: select * from python.updater_project_version where projeto = 'icones' ;
+<b>Easy_Query</b> : 16:49:59: Normal: Query executada: select * from python.updater_files_version where projeto = 'icones' ;
+<b>Easy_Query</b> : 16:49:59: Normal: Query executada: select * from python.updater_project_version where projeto = 'icones' ;
+<b>sendFiles</b> : 16:49:59: Normal:  Inicio do envio de arquivos 
+ Endereco repositorio:C:/Users/arthur.sato/Desktop/bla 
+ Endereco diretorio(origem):C:/Users/arthur.sato/Desktop/icones
+<b>sendFiles</b> : 16:49:59: Normal: copiou o arquivo C:/Users/arthur.sato/Desktop/icones/Novo Documento de Texto.txt
+<b>Easy_Query</b> : 16:49:59: Normal: Query executada: select * from python.updater_project_version where projeto = 'icones' ;
+<b>Easy_Query</b> : 16:49:59: Normal: Query executada: select * from python.updater_project_version where projeto = 'icones' ;
+<b>Easy_Query</b> : 16:49:59: Normal: Query executada: select * from python.updater_files_version where projeto = 'icones' ;
+<b>Easy_Query</b> : 16:49:59: Normal: Query executada: REPLACE INTO python.updater_project_version  VALUES ('icones','1.1','2016-01-11 16:49:59','C:/Users/arthur.sato/Desktop/icones','C:/Users/arthur.sato/Desktop/bla','local','') 
+<b>Easy_Query</b> : 16:49:59: Normal: Query executada: 
+<b>Easy_Query</b> : 16:49:59: Normal: Query executada: REPLACE INTO python.updater_files_version (projeto,file,datamod) values ('icones','C:/Users/arthur.sato/Desktop/icones/Novo Documento de Texto.txt','2016-01-11 16:48:59')
+<b>Easy_Query</b> : 16:49:59: Normal: Query executada: 
+<b>Controlador</b> : 16:49:59: Normal: deploy feito com sucesso: icones
+<b>Easy_Query</b> : 16:50:00: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:50:00: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:50:00: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:50:00: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:50:00: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:50:00: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:50:00: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:50:00: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:50:10: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:50:10: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:50:10: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:50:10: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:50:10: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:50:10: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:50:10: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:50:10: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:50:20: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:50:20: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:50:20: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:50:20: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:50:20: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:50:20: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:50:20: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:50:20: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:50:30: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:50:30: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:50:30: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:50:30: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:50:30: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:50:30: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:50:30: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:50:30: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:50:40: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:50:40: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:50:40: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:50:40: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:50:40: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:50:40: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:50:40: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:50:40: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:50:50: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:50:50: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:50:50: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:50:50: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:50:50: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:50:50: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:50:50: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:50:50: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:51:00: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:51:00: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:51:00: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:51:00: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:51:00: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:51:00: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:51:00: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:51:00: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:51:10: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:51:10: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:51:10: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:51:10: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:51:10: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:51:10: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:51:10: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:51:10: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:51:20: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:51:20: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:51:20: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:51:20: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:51:20: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:51:20: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:51:20: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:51:20: Normal: Projeto adicionado na tray: Updater-dev
+<b>Easy_Query</b> : 16:51:30: Normal: Query executada: Select * from python.updater_project_version ;
+<b>MAIN_WINDOW</b> : 16:51:30: Normal: ATUALIZACAO INICIADA, tray limpa
+<b>MAIN_WINDOW</b> : 16:51:30: Normal: Projeto adicionado na tray: AtuVencimentos
+<b>MAIN_WINDOW</b> : 16:51:30: Normal: Projeto adicionado na tray: AtuViewer
+<b>MAIN_WINDOW</b> : 16:51:30: Normal: Projeto adicionado na tray: icones
+<b>MAIN_WINDOW</b> : 16:51:30: Normal: Projeto adicionado na tray: PyCadastroPyQt5
+<b>MAIN_WINDOW</b> : 16:51:30: Normal: Projeto adicionado na tray: Updater-client
+<b>MAIN_WINDOW</b> : 16:51:30: Normal: Projeto adicionado na tray: Updater-dev
