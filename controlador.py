@@ -7,7 +7,8 @@ from PyQt5.QtCore import QProcess
 from Configer import configer
 from secretary import *
 from entregador import *
-import os,imp,sys,socket
+from authenticator import *
+import os,imp,sys,socket,getpass
 import datetime
 
 class gestor_de_log(QtCore.QObject):
@@ -83,8 +84,6 @@ class gestor_de_log(QtCore.QObject):
 
     def set_debug(self,value_debug):
         self.debug = value_debug
-
-
 class gestor_mensageiro(QtCore.QObject):
 
     mensagem_sn = QtCore.pyqtSignal(str, str, str,int)
@@ -99,12 +98,16 @@ class gestor_mensageiro(QtCore.QObject):
 
 
 class controlador(QObject):
-    def __init__(self,parent=None):
+    def __init__(self,parent=None,signalcontrol_=None,app_ = None,configer_=None):
         super(controlador,self).__init__(parent)
-        self.cfg = configer(self.get_main_dir()+"/"+"config.txt")
-        self.cfg.read()
-        self.list_programas = configer(self.get_main_dir()+"/"+"programas_do_usuario.txt")
-        self.list_programas.read()
+        self.app_ =app_
+        self.sc = signalcontrol_
+        self.cfg = configer_
+        self.authenticator = gestor_autenticador()
+        self.nome_pc = self.authenticator.get_pc_name()
+        self.nome_user = getpass.getuser()
+        #self.list_programas = configer(self.get_main_dir() + "/" + "programas_do_usuario.txt")
+        #self.list_programas.read()
         self.user_diretorio = self.cfg.dictado["DIRETORIO"] # VEM O C:\\
         self.user_diretorio = self.user_diretorio.replace('\\','/')
         self.user_modo = self.cfg.dictado["MODO"] #VEM DEV OU CLIENT
@@ -116,9 +119,10 @@ class controlador(QObject):
         def msg_(msg_, sender_, escopo_, debug_):
             self.gl.escrever_log(msg_,sender_,escopo_,debug_,"")
         self.gm.mensagem_sn.connect(msg_)
-        self.gm.enviar_msg_("PROGRAMA INICIADO","CONTROLADOR")
-        self.secretaria =secretary(self, menssageiro_ = self.gm, debug_=self.dbg )
-        self.entregador = delivery_files(self, menssageiro_ = self.gm, debug_=self.dbg  )
+        self.gm.enviar_msg_("UPDATER INICIADO","CONTROLADOR")
+        self.secretaria =secretary(self, menssageiro_ = self.gm, debug_=self.dbg,signalcontrol_=self.sc,app_=self.app_ )
+        self.list_programas = self.secretaria.autent_user(self.nome_pc)
+        self.entregador = wraper_de_diretorio(self, menssageiro_ = self.gm, debug_=self.dbg,signalcontrol_=self.sc,app_=self.app_ )
 
     #Funcoes usadas por TELA e TELA2
     def pegar_todos_projetos(self):
@@ -136,14 +140,23 @@ class controlador(QObject):
         return os.path.dirname(sys.argv[0])
 
     #Funcoes usadas pela TELA2
+    #exclui o projeto do db, tanto do project quanto do file
     def excluir(self,nome_projeto):
         self.secretaria.excluir_so_db(nome_projeto)
+    #muda os dados em python.updater_project_version
     def atualizar(self,nome_projeto,diretorio,repositorio,tiporepositorio,executavel):
         self.secretaria.atualizar_dados_projeto(nome_projeto,diretorio,repositorio,tiporepositorio,executavel)
 
     #Funcoes usadas pela TELA
     def deploy(self,nome_projeto):
+
+
         verifica = self.secretaria.verifica_deploy(nome_projeto)
+
+        #if self.dbg == 'ON':
+        #        warum = "Tentativa de deploy, projeto nao existente no db: " + nome_projeto
+
+
         if(verifica==False):
             print "projeto nao existe ainda"
             if self.dbg == 'ON':
@@ -151,29 +164,44 @@ class controlador(QObject):
                 self.gm.enviar_msg_(warum,"Controlador")
             return False
         else:
-            diretorio_projeto= self.secretaria.get_project_info(nome_projeto )
-            lista_de_files = [x['PATH'] for x in verifica]
-            #verifi2 = self.entregador.entregador_diretorio.sendFiles(lista_de_files, diretorio_projeto['DIRETORIO'])
+
+            self.sc.setv_up_(0)
+            self.sc.show_janela_up_()
+
+            diretorio_projeto= self.secretaria.get_project_info(nome_projeto)
+
+            lista_de_files = [x['FILE'] for x in verifica]
+
             if len(lista_de_files)>0:
-                verifi2 = self.entregador.entregador_diretorio.sendFiles(lista_de_files, diretorio_projeto['REPOSITORIO'], diretorio_projeto['DIRETORIO'])
+
+                self.sc.setr_up_(len(lista_de_files))
+
+                verifi2 = self.entregador.sendFiles(lista_de_files, diretorio_projeto['REPOSITORIO'], diretorio_projeto['DIRETORIO'])
+
+                self.sc.hide_janela_up_()
+                if verifi2 == True:
+                    self.secretaria.registra_deploy(nome_projeto)
+                    if self.dbg == 'ON':
+                        warum = "deploy feito com sucesso: " + nome_projeto
+                        self.gm.enviar_msg_(warum,"Controlador")
+                return True
+
             else:
                 if self.dbg == 'ON':
                     warum = "Tentativa de deploy, sem nenhum arquivo modificado, projeto: " + nome_projeto
                     self.gm.enviar_msg_(warum,"Controlador")
+                self.sc.hide_janela_up_()
                 return True
 
-            if verifi2 == True:
-                self.secretaria.registra_deploy(nome_projeto)
-                if self.dbg == 'ON':
-                    warum = "deploy feito com sucesso: " + nome_projeto
-                    self.gm.enviar_msg_(warum,"Controlador")
-                print "deploy feito com sucesso"
-            return True
+
     def new_project(self,nome_projeto,diretorio,versao,repositorio,tiporepositorio,executavel):
+        self.sc.setv_up_(0)
+        self.sc.show_janela_up_()
         datamod = self.secretaria.data_agora()
         lista_files_novos = self.secretaria.verifica_deploy(nome_projeto,{'DIRETORIO':diretorio,'VERSAO':versao,'REPOSITORIO':repositorio,'TIPOREPOSITORIO':tiporepositorio,'DATAMOD':datamod,'EXECUTAVEL':executavel})
-        lista_files_novos = [x['PATH'] for x in lista_files_novos]
-        if self.entregador.entregador_diretorio.sendFiles(lista_files_novos, repositorio,diretorio) :
+        lista_files_novos = [x['FILE'] for x in lista_files_novos]
+        self.sc.setr_up_(len(lista_files_novos))
+        if self.entregador.sendFiles(lista_files_novos, repositorio,diretorio) :
             print "projeto criado"
             if self.dbg == 'ON':
                 warum = "Projeto criado: " + nome_projeto
@@ -183,23 +211,27 @@ class controlador(QObject):
             if self.dbg == 'ON':
                 warum = "Falha na criacao do Projeto: " + nome_projeto
                 self.gm.enviar_msg_(warum,"Controlador")
-
+        self.sc.hide_janela_up_()
         return True
     def instalar_executar_projeto(self,nome_projeto):
         #verifica se esse projeto ja foi instalado
-        if nome_projeto not in self.list_programas.dictado.keys() :
+        if nome_projeto not in self.list_programas.keys() :
             path_updater_projeto=self.instalar_programa(nome_projeto)
-            dict_projeto = {nome_projeto : path_updater_projeto}
+            #dict_projeto = {nome_projeto : path_updater_projeto}
             #escreve o projeto e atualiza
-            self.list_programas.write(dict_projeto)
-            self.list_programas.read()
-            self.executar_programa(self.list_programas.dictado[nome_projeto])
+            #self.list_programas.write(dict_projeto)
+            #self.list_programas.read()
+            self.secretaria.insert_projeto(self.nome_pc,nome_projeto,path_updater_projeto,self.nome_user)
+            self.list_programas = self.secretaria.autent_user(self.nome_pc)
+            self.executar_programa(path_updater_projeto,nome_projeto)
         else:
-            self.executar_programa(self.list_programas.dictado[nome_projeto])
-
+            path_exec=self.list_programas[nome_projeto]
+            self.executar_programa(path_exec,nome_projeto)
     #faz o shutil do updater-client
     def instalar_programa(self,nome_projeto):
         #cria pasta do novo projeto
+        self.sc.setv_(0)
+        self.sc.show_janela_()
         path_pasta_install = self.user_diretorio + "/" + nome_projeto
         if not os.path.exists(path_pasta_install):
             os.makedirs(path_pasta_install)
@@ -212,11 +244,13 @@ class controlador(QObject):
         arquivo.write(escrita)
         arquivo.close()
         path_executavel_updater = path_pasta_install + "/Controlador.exe"
+        self.sc.hide_janela_()
         return path_executavel_updater.replace("\\","/")
 
-    def executar_programa(self,path_projeto):
+    def executar_programa(self,path_projeto,nome_projeto):
+        self.gm.enviar_msg_("INICIANDO EXECUCAO "+ nome_projeto,"CONTROLADOR")
         process = QProcess()
         if process.startDetached(path_projeto):
-            self.gm.enviar_msg_(u"Programa aberto com sucesso! ","CONTROLADOR")
+            self.gm.enviar_msg_(u"Programa aberto com sucesso! "+ nome_projeto,"CONTROLADOR")
         else:
-            self.gm.enviar_msg_(u"Programa não foi aberto com sucesso","CONTROLADOR")
+            self.gm.enviar_msg_(u"Programa não foi aberto com sucesso"+ nome_projeto,"CONTROLADOR")

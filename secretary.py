@@ -114,6 +114,7 @@ class QtSqlConnector(QtCore.QObject):
                 self.gm.enviar_msg_('Erro no fechamento da Conexao'+str(sys.exc_info()[1]),str(self),"ERRO")
 
             pass
+
 class Easy_Query(QObject):
 
     mensagem_ = QtCore.pyqtSignal(str)
@@ -271,54 +272,47 @@ class Easy_Query(QObject):
 
 #Classe que arruma tudo no DB
 class secretary(QObject):
-
-    def data_agora(self):
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-
-    def __init__(self,parent=None,menssageiro_=None,debug_='OFF'):
+    def __init__(self ,parent=None ,menssageiro_=None ,debug_='OFF' ,signalcontrol_=None ,app_=None):
         super(secretary,self).__init__(parent)
         self.gm = menssageiro_
         self.dbg = debug_
-        self.eq_ =Easy_Query(QtSqlConnector.sgetDB("mysql"),menssageiro_=self.gm,debug_=self.dbg)
-        self.repo =respositorio_diretorio(self)
-        self.entregador = wraper_de_diretorio(menssageiro_=self.gm,debug_=self.dbg)
+        self.sc = signalcontrol_
+        self.eq_ = Easy_Query(QtSqlConnector.sgetDB("mysql"),menssageiro_=self.gm,debug_=self.dbg)
+        self.app_ = app_
+        self.entregador = wraper_de_diretorio(menssageiro_=self.gm ,debug_=self.dbg, signalcontrol_=self.sc,app_=self.app_)
+    def data_agora(self):
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+    def get_all_projects(self):
 
+        query_projetos = "Select * from python.updater_project_version ;"
+        lista_projetos = self.eq_.Query_Result(query_projetos)
+
+        return lista_projetos
     def get_project_info(self,nome_projeto):
         query_table_projeto = "select * from python.updater_project_version where projeto = '{0}' ;".format(nome_projeto)
         lista_dados_projeto = self.eq_.Query_Result(query_table_projeto)
         return lista_dados_projeto[0]
 
-    def excluir_so_db(self,nome_projeto):
-        query_deletar_project='delete from python.updater_project_version where projeto="{0}";'.format(nome_projeto)
-        query_deletar_files = "delete from python.updater_files_version where projeto='{0}';".format(nome_projeto)
-        self.eq_.Query_no_Result(query_deletar_project)
-        self.eq_.Query_no_Result(query_deletar_files)
-
-    def atualizar_dados_projeto(self,nome_projeto,diretorio,repositorio,tiporeposirotio,executavel):
-        query_atualizar = "UPDATE python.updater_project_version SET DIRETORIO ='{0}', REPOSITORIO='{1}',TIPOREPOSITORIO='{2}',EXECUTAVEL='{3}' WHERE PROJETO='{4}' ;".format(diretorio,repositorio,tiporeposirotio,executavel,nome_projeto)
-        self.eq_.Query_no_Result(query_atualizar)
-
+    #VERIFICA se projeto ja existe ou Faz o CADASTRO do projeto(NEW)
     def verifica_deploy(self,nome_projeto,parametros_projeto={}):
-
+        #CADASTRA projeto
         if len(parametros_projeto)>0:
-
-            #primeiro acesso cadastrar no bd
             parametros_projeto['DIRETORIO'] = parametros_projeto['DIRETORIO'].replace("\\","/")
             parametros_projeto['REPOSITORIO'] = parametros_projeto['REPOSITORIO'].replace("\\","/")
             parametros_projeto['EXECUTAVEL'] = parametros_projeto['EXECUTAVEL'].replace("\\","/")
-
             query_criacao1 = "REPLACE INTO python.updater_project_version VALUES ('{0}','{1}','{2}','{3}','{4}','{5}','{6}') ".format(unicode(nome_projeto),parametros_projeto['VERSAO'],parametros_projeto['DATAMOD'],unicode(parametros_projeto['DIRETORIO']),unicode(parametros_projeto['REPOSITORIO']),unicode(parametros_projeto['TIPOREPOSITORIO']),unicode(parametros_projeto['EXECUTAVEL']))
             self.eq_.Query_no_Result(query_criacao1)
-
-            lista_files = self.repo.getFiles(parametros_projeto['DIRETORIO'])
+            lista_files = self.entregador.getFiles(parametros_projeto['DIRETORIO'],[])
+            #coloca no db
             query_criacao2 = "REPLACE INTO python.updater_files_version (projeto,file,datamod) values "
             for elemento in lista_files:
-                query_criacao2 = query_criacao2 + unicode("('{0}','{1}','{2}'),").format(unicode(nome_projeto),unicode(elemento['PATH'].replace("\\","/")),elemento['DATEMODIFICATION'])
+                query_criacao2 = query_criacao2 + unicode("('{0}','{1}','{2}'),").format(unicode(nome_projeto),unicode(elemento['FILE'].replace("\\","/")),elemento['DATEMODIFICATION'])
             query_criacao2 = query_criacao2[:-1] + ";"
             self.eq_.Query_no_Result(query_criacao2)
 
             return lista_files
 
+        #VERIFICA se projeto ja existe
         else:
             #so recebi o nome .. verificar contra o bs
             query_verification = "select * from python.updater_project_version where projeto = '{0}' ;".format(nome_projeto)
@@ -326,12 +320,13 @@ class secretary(QObject):
             pasta_diretorio = list_verification[0]['DIRETORIO']
             pasta_repositorio = list_verification[0]['REPOSITORIO']
             #olha os arquivos no diretorio
-            lista_files = self.repo.getFiles(list_verification[0]['DIRETORIO'])
-            #olha os arquivos no db
+            lista_files = self.entregador.getFiles(list_verification[0]['DIRETORIO'])
+            #olha os arquivos no DB
             query_verification2 = "select * from python.updater_files_version where projeto = '{0}' ;".format(nome_projeto)
             list_verification2 = self.eq_.Query_Result(query_verification2)
             lista_files_nomes  = [x_['FILE'] for x_ in list_verification2]
-            lista_arquivos_nodir = [x['PATH'] for x in lista_files]
+            lista_arquivos_nodir = [x['FILE'] for x in lista_files]
+
             #deleta o que ta no repositorio mas nao esta no diretorio
             for y in lista_files_nomes:
                 if y not in lista_arquivos_nodir:
@@ -340,25 +335,19 @@ class secretary(QObject):
                     end_rem_file = pasta_repositorio + unicode(y.replace(pasta_diretorio,""))
                     os.remove(unicode(end_rem_file))
 
-
             if len(list_verification)>0 :
-                #procegue com  amlogica de  verificacao
+                #procegue com  a logica de  verificacao
                 #print lista_files
-
                 lista_dict_modificar=[]
                 lista_files_modificar=[]
 
 
-
                 for x in lista_files:
                     for y in list_verification2:
-                        if((datetime.datetime.strptime(x['DATEMODIFICATION'],'%Y-%m-%d %H:%M:%S')>y['DATAMOD'].toPyDateTime() and x['PATH']==y['FILE']) or (x['PATH'] not in lista_files_nomes and x['PATH'] not in lista_files_modificar)):
-                            #substitui
+                        if((datetime.datetime.strptime(x['DATEMODIFICATION'],'%Y-%m-%d %H:%M:%S')>y['DATAMOD'].toPyDateTime() and x['FILE']==y['FILE']) or (x['FILE'] not in lista_files_nomes and x['FILE'] not in lista_files_modificar)):
                             #query_substituicao = " python.updater_files_version where projeto = '{0}'".format()
                             lista_dict_modificar.append(x)
-                            lista_files_modificar.append(x['PATH'])
-
-
+                            lista_files_modificar.append(x['FILE'])
 
                 return lista_dict_modificar
             else:
@@ -366,77 +355,66 @@ class secretary(QObject):
                 print"NAO TEM"
                 return False
 
+        #FIM
+
+    #REGISTRA deploy de um projeto ja existente, SO MEXE NO DB
     def registra_deploy(self,nome_projeto,lista_dict_dados=[]):
         #faz query dos dados do projeto
         query_table_projeto = "select * from python.updater_project_version where projeto = '{0}' ;".format(nome_projeto)
         lista_dados_projeto = self.eq_.Query_Result(query_table_projeto)
-
         # atualiza versao
         nova_versao = float(lista_dados_projeto[0]['VERSAO'])+0.1
-
         #pega lista de files a serem mudados
         lista_files_mudados=self.verifica_deploy(nome_projeto)
         if len(lista_files_mudados)==0:
             return True
-
         #calcula nova data de modificacao do projeto
         data_mudanca =  self.data_agora()
 
-        #faz a atualizacao da table update_project_version
         query_update1="REPLACE INTO python.updater_project_version  VALUES ('{0}','{1}','{2}','{3}','{4}','{5}','{6}') ;".format(unicode(nome_projeto) ,unicode(nova_versao) ,unicode(data_mudanca),unicode(lista_dados_projeto[0]['DIRETORIO']),unicode(lista_dados_projeto[0]['REPOSITORIO']),unicode(lista_dados_projeto[0]['TIPOREPOSITORIO']),unicode(lista_dados_projeto[0]['EXECUTAVEL']))
         self.eq_.Query_no_Result(query_update1)
-
         #faz a atualizacao da table update_files_version PARA CADA FILE
         query_update2 = "REPLACE INTO python.updater_files_version (projeto,file,datamod) values "
+
         for i in lista_files_mudados:
-            query_update2= query_update2 + unicode("('{0}','{1}','{2}'),").format(nome_projeto,i['PATH'],i['DATEMODIFICATION'])
-
+            query_update2= query_update2 + unicode("('{0}','{1}','{2}'),").format(nome_projeto,i['FILE'],i['DATEMODIFICATION'])
+        #tira a virgula
         query_update2 = query_update2[:-1] + ";"
-
         if query_update2 != "REPLACE INTO python.updater_files_version (projeto,file,datamod) values;":
             self.eq_.Query_no_Result(query_update2)
 
         return True
 
-    def get_all_projects(self):
-        query_projetos = "Select * from python.updater_project_version ;"
-        lista_projetos = self.eq_.Query_Result(query_projetos)
-        return lista_projetos
+    #EDITA dados de um projeto ja existente(OLD)
+    def atualizar_dados_projeto(self,nome_projeto,diretorio,repositorio,tiporeposirotio,executavel):
+        query_atualizar = "UPDATE python.updater_project_version SET DIRETORIO ='{0}', REPOSITORIO='{1}',TIPOREPOSITORIO='{2}',EXECUTAVEL='{3}' WHERE PROJETO='{4}' ;".format(diretorio,repositorio,tiporeposirotio,executavel,nome_projeto)
+        self.eq_.Query_no_Result(query_atualizar)
+    def excluir_so_db(self,nome_projeto):
+        query_deletar_project='delete from python.updater_project_version where projeto="{0}";'.format(nome_projeto)
+        query_deletar_files = "delete from python.updater_files_version where projeto='{0}';".format(nome_projeto)
+        self.eq_.Query_no_Result(query_deletar_project)
+        self.eq_.Query_no_Result(query_deletar_files)
 
+    #Faz o shutil pro controlador
     def instalar_projeto(self,path_novo_projeto,path_updaterclient):
         lista_arquivos=self.entregador.getFiles(path_updaterclient)
         lista_files = [x['FILE'] for x in lista_arquivos]
+        self.sc.setr_(len(lista_files))
         self.entregador.Update_files(lista_files,path_novo_projeto,path_updaterclient)
 
-#Classes de Leitura dos arquivos no repositorio
-class repositorio_base(QObject):
+    #Pega dados dos programas instalados pelo usuario
+    def autent_user(self,usuario):
+        query_user = "select * from python.updater_users where nomepc = '{0}';".format(usuario)
+        asdfasdf = self.eq_.Query_Result(query_user)
+        dict_projeto = {}
+        for x in asdfasdf:
+            dict_projeto[x['PROJETO']] =  x['EXECUTAVEL']
 
-    def __init__(self,parent=None):
-        super(repositorio_base,self).__init__(parent)
-        self.mytipe =""
-    def getFiles(self,instrucao_endereco):
-        print "getFiles"
-    def sendFiles(self,instrucao_endereco):
-        print "sendFiles"
-class respositorio_diretorio(repositorio_base) :
+        dict_projeto = dict((x['PROJETO'],x['EXECUTAVEL']) for x in asdfasdf)
+
+        return dict_projeto
+    def insert_projeto(self,usuario,nome_projeto,executavel,nome_user):
+        query_inserir_programa = u"INSERT INTO python.updater_users VALUES ('{0}','{1}','{2}','{3}');".format(unicode(usuario),unicode(nome_projeto),unicode(executavel),unicode(nome_user))
+        return self.eq_.Query_no_Result(query_inserir_programa)
 
 
-    def __init__(self,parent=None):
-        super(respositorio_diretorio,self).__init__(parent)
-        self.mytipe="diretorio"
-
-    def getFiles(self,instrucao_endereco,lista_saida=[]):
-        lista_saida = []
-        #{"PATH":'C:/Users/User/Desktop/KondorPythonProjects-master/BACKUP/backup.png',"DATACREATION":"2012-01-01",,"DATAMODIFICATION":"2012-01-01"}
-        for (dirpath, dirnames, filenames) in walk(instrucao_endereco):
-
-            dirpath = dirpath.replace("\\","/")
-            for subel in  [dirpath+"/"+x  for x in filenames]:
-                dicionario = {'PATH':subel,'DATEMODIFICATION':datetime.datetime.fromtimestamp(os.stat(subel).st_mtime).strftime('%Y-%m-%d %H:%M:%S')}
-                lista_saida.append(dicionario)
-
-        #[datetime.datetime.fromtimestamp(os.stat(y).st_mtime).strftime('%Y-%m-%d %H:%M:%S') for y in lista_saida]
-        return lista_saida
-
-r1=QtSqlConnector(None,"MYSQL",{"host":"192.168.180.249","schema":"python","user":"root","password":"marisco"},nameConnection="mysql")
-r2=QtSqlConnector(None,"SQLITE",{"db":":memory:"},nameConnection="memory")

@@ -1,4 +1,0 @@
-
-AtuViewer|C:/Users/arthur.sato/Desktop/pasta_kenzo/AtuViewer/Controlador.exe
-AtuVencimentos|C:/Users/arthur.sato/Desktop/pasta_kenzo/AtuVencimentos/Controlador.exe
-PyCadastroPyQt5|C:/Users/arthur.sato/Desktop/pasta_kenzo/PyCadastroPyQt5/Controlador.exe

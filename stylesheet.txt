@@ -478,6 +478,7 @@ QCheckBox::indicator:disabled, QRadioButton::indicator:disabled
 
 QLabel{
 font-weight: bold;
+background-image:url(/C:/Splash_Kondor_Up.png);
 }
 
-QWidget[progress_window="true"] {background-image:imagem.png }
+QWidget[progress_window="True"] {background-image:url(Splash_Kondor_Up.png); }

@@ -2,7 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7719b259-9ce9-4851-bc77-6637fc031ddf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/im/config-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/im/delete-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/im/deploy-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/im/download-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/im/green_light-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/im/plus-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/im/programs-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/im/refresh-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/im/run-icon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/im/run-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/im/upload-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/Splash_Kondor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/Splash_Kondor_Up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/Updater-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/config-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/delete-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/deploy-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/download-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/green_light-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/plus-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/programs-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/refresh-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/run-icon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/run-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/suits_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/upload-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/authenticator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mthreads.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signalControl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tela_progbar.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tela_progbar_up.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Splash_Kondor_Up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Updater-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icone_suits.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/programas_do_usuario.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/suits_icon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/suits_icon.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Splash_Kondor.png" afterPath="$PROJECT_DIR$/dist/im/Splash_Kondor.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Splash_Kondor_Up.png" afterPath="$PROJECT_DIR$/dist/im/Splash_Kondor_Up.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Updater-icon.png" afterPath="$PROJECT_DIR$/dist/im/Updater-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/suits_icon.png" afterPath="$PROJECT_DIR$/dist/im/suits_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/Updater-dev.exe" afterPath="$PROJECT_DIR$/dist/Updater-dev.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/dist/Controlador.exe" afterPath="$PROJECT_DIR$/../updater-client/dist/Controlador.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Updater-dev.py" afterPath="$PROJECT_DIR$/Updater-dev.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.txt" afterPath="$PROJECT_DIR$/config.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlador.py" afterPath="$PROJECT_DIR$/controlador.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/config.txt" afterPath="$PROJECT_DIR$/dist/config.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/logs.txt" afterPath="$PROJECT_DIR$/dist/logs.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entregador.py" afterPath="$PROJECT_DIR$/entregador.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs.txt" afterPath="$PROJECT_DIR$/logs.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/programas_do_usuario.txt" afterPath="$PROJECT_DIR$/programas_do_usuario.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/secretary.py" afterPath="$PROJECT_DIR$/secretary.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheet.txt" afterPath="$PROJECT_DIR$/stylesheet.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teste.py" afterPath="$PROJECT_DIR$/teste.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/.idea/misc.xml" afterPath="$PROJECT_DIR$/../updater-client/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../updater-client/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/Controlador.py" afterPath="$PROJECT_DIR$/../updater-client/Controlador.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/Entregador.py" afterPath="$PROJECT_DIR$/../updater-client/Entregador.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/logs.txt" afterPath="$PROJECT_DIR$/../updater-client/logs.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../updater-client/secretary.py" afterPath="$PROJECT_DIR$/../updater-client/secretary.py" />
     </list>
     <ignored path="secretary.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,64 +88,55 @@
       <file leaf-file-name="teste.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/teste.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.2580647">
-              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.2">
+              <caret line="273" column="0" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#24#65#0" expanded="true" />
+                <element signature="e#187#3920#0" expanded="false" />
+                <element signature="e#874#1227#0" expanded="false" />
+                <element signature="e#1279#1313#0" expanded="false" />
+                <element signature="e#1375#1921#0" expanded="false" />
+                <element signature="e#3715#3920#0" expanded="false" />
+                <element signature="e#3953#9880#0" expanded="false" />
+                <element signature="e#4095#4542#0" expanded="false" />
+                <element signature="e#5578#9880#0" expanded="false" />
+                <element signature="e#6680#8043#0" expanded="false" />
+                <element signature="e#9012#9502#0" expanded="false" />
+                <element signature="e#10269#12910#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="entregador.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entregador.py">
+      <file leaf-file-name="secretary.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/secretary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-32.35484">
-              <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stylesheet.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheet.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="472" column="63" selection-start-line="472" selection-start-column="63" selection-end-line="472" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Splash_Kondor_Up.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Splash_Kondor_Up.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Updater-dev.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Updater-dev.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3469388">
-              <caret line="136" column="52" selection-start-line="136" selection-start-column="52" selection-end-line="136" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.66068965">
+              <caret line="343" column="0" selection-start-line="343" selection-start-column="0" selection-end-line="343" selection-end-column="0" />
               <folding>
-                <element signature="e#25#50#0" expanded="true" />
-                <element signature="e#336#560#0" expanded="false" />
-                <element signature="e#1510#1630#0" expanded="false" />
-                <element signature="e#2957#3084#0" expanded="false" />
-                <element signature="e#5889#6358#0" expanded="false" />
-                <element signature="e#9038#9355#0" expanded="false" />
-                <element signature="e#9442#9759#0" expanded="false" />
-                <element signature="e#9847#10159#0" expanded="false" />
-                <element signature="e#10256#10480#0" expanded="false" />
-                <element signature="e#10591#10666#0" expanded="false" />
-                <element signature="e#13316#17914#0" expanded="false" />
-                <element signature="e#15690#16012#0" expanded="false" />
-                <element signature="e#16101#16423#0" expanded="false" />
-                <element signature="e#16512#16835#0" expanded="false" />
-                <element signature="e#16939#17181#0" expanded="false" />
-                <element signature="e#17291#17409#0" expanded="false" />
+                <element signature="e#24#35#0" expanded="true" />
+                <element signature="e#349#4082#0" expanded="false" />
+                <element signature="e#498#986#0" expanded="false" />
+                <element signature="e#1036#1389#0" expanded="false" />
+                <element signature="e#1441#1475#0" expanded="false" />
+                <element signature="e#1537#2083#0" expanded="false" />
+                <element signature="e#2169#3844#0" expanded="false" />
+                <element signature="e#3877#4082#0" expanded="false" />
+                <element signature="e#4116#10045#0" expanded="false" />
+                <element signature="e#4258#4705#0" expanded="false" />
+                <element signature="e#4753#5672#0" expanded="false" />
+                <element signature="e#5741#10043#0" expanded="false" />
+                <element signature="e#6843#8206#0" expanded="false" />
+                <element signature="e#9175#9665#0" expanded="false" />
+                <element signature="e#10622#10681#0" expanded="false" />
+                <element signature="e#10723#10882#0" expanded="false" />
+                <element signature="e#10936#11160#0" expanded="false" />
+                <element signature="e#15235#16843#0" expanded="false" />
+                <element signature="e#17003#17281#0" expanded="false" />
+                <element signature="e#17332#17665#0" expanded="false" />
+                <element signature="e#17778#18022#0" expanded="false" />
+                <element signature="e#18121#18480#0" expanded="false" />
+                <element signature="e#18561#18805#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -92,16 +145,65 @@
       <file leaf-file-name="controlador.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controlador.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.483871">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+            <state vertical-scroll-proportion="-4.5">
+              <caret line="153" column="47" selection-start-line="153" selection-start-column="47" selection-end-line="153" selection-end-column="47" />
               <folding>
                 <element signature="e#24#43#0" expanded="true" />
-                <element signature="e#344#2880#0" expanded="false" />
-                <element signature="e#1435#2808#0" expanded="false" />
-                <element signature="e#2929#3204#0" expanded="false" />
-                <element signature="e#3239#9488#0" expanded="false" />
-                <element signature="e#4726#4888#0" expanded="false" />
-                <element signature="e#6932#7783#0" expanded="false" />
+                <element signature="e#380#2916#0" expanded="false" />
+                <element signature="e#1471#2844#0" expanded="false" />
+                <element signature="e#2963#3238#0" expanded="false" />
+                <element signature="e#4881#4969#0" expanded="false" />
+                <element signature="e#5022#5071#0" expanded="false" />
+                <element signature="e#5110#5272#0" expanded="false" />
+                <element signature="e#5309#5429#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Updater-dev.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Updater-dev.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.366667">
+              <caret line="150" column="45" selection-start-line="150" selection-start-column="45" selection-end-line="150" selection-end-column="45" />
+              <folding>
+                <element signature="e#25#50#0" expanded="true" />
+                <element signature="e#3234#3361#0" expanded="false" />
+                <element signature="e#7419#7522#0" expanded="false" />
+                <element signature="e#7618#7726#0" expanded="false" />
+                <element signature="e#7804#8273#0" expanded="false" />
+                <element signature="e#8351#8478#0" expanded="false" />
+                <element signature="e#10953#11270#0" expanded="false" />
+                <element signature="e#11357#11674#0" expanded="false" />
+                <element signature="e#11762#12074#0" expanded="false" />
+                <element signature="e#12171#12395#0" expanded="false" />
+                <element signature="e#12506#12581#0" expanded="false" />
+                <element signature="e#12678#12728#0" expanded="false" />
+                <element signature="e#13112#13166#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entregador.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/entregador.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.533334">
+              <caret line="65" column="58" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
+              <folding>
+                <element signature="e#24#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authenticator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authenticator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.2666667">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,7 +213,7 @@
         <entry file="file://$PROJECT_DIR$/config.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -139,21 +241,27 @@
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/testes.py" />
         <option value="$PROJECT_DIR$/stylesheet2.txt" />
+        <option value="$PROJECT_DIR$/stylesheet.txt" />
+        <option value="$PROJECT_DIR$/mthreads.py" />
         <option value="$PROJECT_DIR$/logs.txt" />
+        <option value="$PROJECT_DIR$/signalControl.py" />
         <option value="$PROJECT_DIR$/entregador.py" />
-        <option value="$PROJECT_DIR$/secretary.py" />
+        <option value="$PROJECT_DIR$/tela_progbar.py" />
+        <option value="$PROJECT_DIR$/tela_progbar_up.py" />
         <option value="$PROJECT_DIR$/programas_do_usuario.txt" />
+        <option value="$PROJECT_DIR$/dist/logs.txt" />
+        <option value="$PROJECT_DIR$/authenticator.py" />
+        <option value="$PROJECT_DIR$/teste.py" />
         <option value="$PROJECT_DIR$/controlador.py" />
         <option value="$PROJECT_DIR$/config.txt" />
         <option value="$PROJECT_DIR$/Updater-dev.py" />
-        <option value="$PROJECT_DIR$/teste.py" />
-        <option value="$PROJECT_DIR$/stylesheet.txt" />
+        <option value="$PROJECT_DIR$/secretary.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1592" />
-    <option name="y" value="-8" />
+    <option name="y" value="-28" />
     <option name="width" value="1616" />
     <option name="height" value="916" />
   </component>
@@ -216,17 +324,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -245,21 +342,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secretary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Updater-dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="im" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../updater-client" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/teste.py" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.splitter.proportion" value="0.26086956" />
     <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\py_workspace\KondorPythonProjects\Updater-dev\im" />
       <recent name="C:\py_workspace\KondorPythonProjects\Updater-dev\dist" />
       <recent name="C:\py_workspace\KondorPythonProjects\Updater-dev" />
       <recent name="C:\Users\arthur.sato\Desktop\Projetos Python\secretary" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\py_workspace\KondorPythonProjects\Updater-dev\im" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Updater-dev">
@@ -470,12 +596,48 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="5">
+    <configuration default="false" name="progbar tela" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="secretary" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tela_progbar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="signal control" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="secretary" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/signalControl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python.entregador" />
       <item index="1" class="java.lang.String" itemvalue="Python.controlador" />
       <item index="2" class="java.lang.String" itemvalue="Python.secretary" />
       <item index="3" class="java.lang.String" itemvalue="Python.Updater-dev" />
       <item index="4" class="java.lang.String" itemvalue="Python.teste" />
+      <item index="5" class="java.lang.String" itemvalue="Python.progbar tela" />
+      <item index="6" class="java.lang.String" itemvalue="Python.signal control" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -507,7 +669,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452538296856</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updater-dev">
+      <created>1452538306670</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1452538306670</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -520,47 +688,47 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1592" y="-8" width="1616" height="916" extended-state="6" />
+    <frame x="1592" y="-28" width="1616" height="916" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17945465" sideWeight="0.482821" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.4977806" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23421052" sideWeight="0.5025" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14512041" sideWeight="0.4755877" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23421052" sideWeight="0.5025" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30501932" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2882883" sideWeight="0.485" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30501932" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27040815" sideWeight="0.485" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33976835" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17945465" sideWeight="0.517179" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3809524" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33976835" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18679868" sideWeight="0.5244123" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38010204" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.4977806" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.4977806" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.4977806" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23421052" sideWeight="0.5025" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23421052" sideWeight="0.5025" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30501932" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2921493" sideWeight="0.485" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33976835" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19023462" sideWeight="0.49270073" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30501932" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27040815" sideWeight="0.485" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33976835" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14512041" sideWeight="0.4755877" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.115409" sideWeight="0.50729924" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3809524" sideWeight="0.4975" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18679868" sideWeight="0.5244123" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38010204" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -583,19 +751,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/secretary.py</url>
-          <line>305</line>
-          <option name="timeStamp" value="116" />
+          <url>file://$PROJECT_DIR$/controlador.py</url>
+          <line>217</line>
+          <option name="timeStamp" value="223" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/secretary.py</url>
-          <line>335</line>
-          <option name="timeStamp" value="132" />
+          <url>file://$PROJECT_DIR$/controlador.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="226" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/teste.py</url>
-          <line>191</line>
-          <option name="timeStamp" value="195" />
+          <url>file://$PROJECT_DIR$/Updater-dev.py</url>
+          <line>204</line>
+          <option name="timeStamp" value="227" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -605,120 +773,15 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="197" />
+      <option name="time" value="228" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/entregador.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="277" column="0" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/secretary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="295" column="95" selection-start-line="295" selection-start-column="77" selection-end-line="295" selection-end-column="95" />
-          <folding>
-            <element signature="e#24#35#0" expanded="false" />
-            <element signature="e#349#4082#0" expanded="false" />
-            <element signature="e#4115#10044#0" expanded="false" />
-            <element signature="e#4257#4704#0" expanded="false" />
-            <element signature="e#4752#5671#0" expanded="false" />
-            <element signature="e#10135#10194#0" expanded="false" />
-            <element signature="e#10651#10875#0" expanded="false" />
-            <element signature="e#10927#11260#0" expanded="false" />
-            <element signature="e#11371#11649#0" expanded="false" />
-            <element signature="e#11726#15490#0" expanded="false" />
-            <element signature="e#15564#17212#0" expanded="false" />
-            <element signature="e#17254#17412#0" expanded="false" />
-            <element signature="e#17783#18030#0" expanded="false" />
-            <element signature="e#17823#17892#0" expanded="false" />
-            <element signature="e#18086#18966#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controlador.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="56" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="56" />
-          <folding>
-            <element signature="e#24#43#0" expanded="true" />
-            <element signature="e#344#2880#0" expanded="false" />
-            <element signature="e#1435#2808#0" expanded="false" />
-            <element signature="e#2929#3204#0" expanded="false" />
-            <element signature="e#3239#9488#0" expanded="false" />
-            <element signature="e#4726#4888#0" expanded="false" />
-            <element signature="e#6932#7783#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Templates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entregador.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/shutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="277" column="0" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/secretary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="270" column="25" selection-start-line="270" selection-start-column="25" selection-end-line="270" selection-end-column="25" />
-          <folding>
-            <element signature="e#24#35#0" expanded="false" />
-            <element signature="e#349#4082#0" expanded="false" />
-            <element signature="e#4115#10044#0" expanded="false" />
-            <element signature="e#4257#4704#0" expanded="false" />
-            <element signature="e#4752#5671#0" expanded="false" />
-            <element signature="e#10135#10194#0" expanded="false" />
-            <element signature="e#10651#10875#0" expanded="false" />
-            <element signature="e#10927#11260#0" expanded="false" />
-            <element signature="e#11371#11649#0" expanded="false" />
-            <element signature="e#11726#15490#0" expanded="false" />
-            <element signature="e#15564#17212#0" expanded="false" />
-            <element signature="e#17254#17412#0" expanded="false" />
-            <element signature="e#17783#18030#0" expanded="false" />
-            <element signature="e#17823#17892#0" expanded="false" />
-            <element signature="e#18086#18966#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -728,12 +791,13 @@
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding>
             <element signature="e#24#43#0" expanded="true" />
-            <element signature="e#344#2880#0" expanded="false" />
-            <element signature="e#1435#2808#0" expanded="false" />
-            <element signature="e#2929#3204#0" expanded="false" />
-            <element signature="e#3239#9488#0" expanded="false" />
-            <element signature="e#4726#4888#0" expanded="false" />
-            <element signature="e#6932#7783#0" expanded="false" />
+            <element signature="e#380#2916#0" expanded="false" />
+            <element signature="e#1471#2844#0" expanded="false" />
+            <element signature="e#2963#3238#0" expanded="false" />
+            <element signature="e#4881#4969#0" expanded="false" />
+            <element signature="e#5022#5071#0" expanded="false" />
+            <element signature="e#5110#5272#0" expanded="false" />
+            <element signature="e#5309#5429#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -749,9 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,23 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#24#35#0" expanded="false" />
-            <element signature="e#349#4082#0" expanded="false" />
-            <element signature="e#4115#10044#0" expanded="false" />
-            <element signature="e#4257#4704#0" expanded="false" />
-            <element signature="e#4752#5671#0" expanded="false" />
-            <element signature="e#10135#10194#0" expanded="false" />
-            <element signature="e#10651#10875#0" expanded="false" />
-            <element signature="e#10927#11260#0" expanded="false" />
-            <element signature="e#11371#11649#0" expanded="false" />
-            <element signature="e#11726#15490#0" expanded="false" />
-            <element signature="e#15564#17212#0" expanded="false" />
-            <element signature="e#17254#17412#0" expanded="false" />
-            <element signature="e#17783#18030#0" expanded="false" />
-            <element signature="e#17823#17892#0" expanded="false" />
-            <element signature="e#18086#18966#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,9 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,23 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#35#0" expanded="false" />
-            <element signature="e#349#4082#0" expanded="false" />
-            <element signature="e#4115#10044#0" expanded="false" />
-            <element signature="e#4257#4704#0" expanded="false" />
-            <element signature="e#4752#5671#0" expanded="false" />
-            <element signature="e#10135#10194#0" expanded="false" />
-            <element signature="e#10651#10875#0" expanded="false" />
-            <element signature="e#10927#11260#0" expanded="false" />
-            <element signature="e#11371#11649#0" expanded="false" />
-            <element signature="e#11726#15490#0" expanded="false" />
-            <element signature="e#15564#17212#0" expanded="false" />
-            <element signature="e#17254#17412#0" expanded="false" />
-            <element signature="e#17783#18030#0" expanded="false" />
-            <element signature="e#17823#17892#0" expanded="false" />
-            <element signature="e#18086#18966#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,23 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#35#0" expanded="false" />
-            <element signature="e#349#4082#0" expanded="false" />
-            <element signature="e#4115#10044#0" expanded="false" />
-            <element signature="e#4257#4704#0" expanded="false" />
-            <element signature="e#4752#5671#0" expanded="false" />
-            <element signature="e#10135#10194#0" expanded="false" />
-            <element signature="e#10651#10875#0" expanded="false" />
-            <element signature="e#10927#11260#0" expanded="false" />
-            <element signature="e#11371#11649#0" expanded="false" />
-            <element signature="e#11726#15490#0" expanded="false" />
-            <element signature="e#15564#17212#0" expanded="false" />
-            <element signature="e#17254#17412#0" expanded="false" />
-            <element signature="e#17783#18030#0" expanded="false" />
-            <element signature="e#17823#17892#0" expanded="false" />
-            <element signature="e#18086#18966#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -897,23 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#35#0" expanded="false" />
-            <element signature="e#349#4082#0" expanded="false" />
-            <element signature="e#4115#10044#0" expanded="false" />
-            <element signature="e#4257#4704#0" expanded="false" />
-            <element signature="e#4752#5671#0" expanded="false" />
-            <element signature="e#10135#10194#0" expanded="false" />
-            <element signature="e#10651#10875#0" expanded="false" />
-            <element signature="e#10927#11260#0" expanded="false" />
-            <element signature="e#11371#11649#0" expanded="false" />
-            <element signature="e#11726#15490#0" expanded="false" />
-            <element signature="e#15564#17212#0" expanded="false" />
-            <element signature="e#17254#17412#0" expanded="false" />
-            <element signature="e#17783#18030#0" expanded="false" />
-            <element signature="e#17823#17892#0" expanded="false" />
-            <element signature="e#18086#18966#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,13 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydev_monkey_qt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31106472">
-          <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Templates.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.741936">
@@ -1001,61 +984,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Updater-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programas_do_usuario.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="124" column="76" selection-start-line="124" selection-start-column="76" selection-end-line="124" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="75" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Configer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.580645">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/secretary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.15625">
-          <caret line="408" column="66" selection-start-line="408" selection-start-column="49" selection-end-line="408" selection-end-column="66" />
-          <folding>
-            <element signature="e#24#35#0" expanded="false" />
-            <element signature="e#349#4082#0" expanded="false" />
-            <element signature="e#4115#10044#0" expanded="false" />
-            <element signature="e#4257#4704#0" expanded="false" />
-            <element signature="e#4752#5671#0" expanded="false" />
-            <element signature="e#10135#10194#0" expanded="false" />
-            <element signature="e#10651#10875#0" expanded="false" />
-            <element signature="e#10927#11260#0" expanded="false" />
-            <element signature="e#11371#11649#0" expanded="false" />
-            <element signature="e#11726#15490#0" expanded="false" />
-            <element signature="e#15564#17212#0" expanded="false" />
-            <element signature="e#17254#17412#0" expanded="false" />
-            <element signature="e#17783#18030#0" expanded="false" />
-            <element signature="e#17823#17892#0" expanded="false" />
-            <element signature="e#18086#18966#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,85 +996,236 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.txt">
+    <entry file="file://$PROJECT_DIR$/stylesheet.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.969696">
+          <caret line="483" column="76" selection-start-line="483" selection-start-column="50" selection-end-line="483" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheet2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im/suits_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im/Splash_Kondor_Up.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im/Updater-icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im/Splash_Kondor.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <caret line="50" column="78" selection-start-line="50" selection-start-column="78" selection-end-line="50" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signalControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mthreads.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/logs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet.txt">
+    <entry file="file://$PROJECT_DIR$/programas_do_usuario.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="472" column="63" selection-start-line="472" selection-start-column="63" selection-end-line="472" selection-end-column="63" />
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tela_progbar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tela_progbar_up.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2962963">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authenticator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2666667">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydev_monkey_qt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20132451">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entregador.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.533334">
+          <caret line="65" column="58" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/teste.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.2580647">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.2">
+          <caret line="273" column="0" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entregador.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.35484">
-          <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splash_Kondor_Up.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controlador.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.483871">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="e#24#43#0" expanded="true" />
-            <element signature="e#344#2880#0" expanded="false" />
-            <element signature="e#1435#2808#0" expanded="false" />
-            <element signature="e#2929#3204#0" expanded="false" />
-            <element signature="e#3239#9488#0" expanded="false" />
-            <element signature="e#4726#4888#0" expanded="false" />
-            <element signature="e#6932#7783#0" expanded="false" />
+            <element signature="e#24#65#0" expanded="true" />
+            <element signature="e#187#3920#0" expanded="false" />
+            <element signature="e#874#1227#0" expanded="false" />
+            <element signature="e#1279#1313#0" expanded="false" />
+            <element signature="e#1375#1921#0" expanded="false" />
+            <element signature="e#3715#3920#0" expanded="false" />
+            <element signature="e#3953#9880#0" expanded="false" />
+            <element signature="e#4095#4542#0" expanded="false" />
+            <element signature="e#5578#9880#0" expanded="false" />
+            <element signature="e#6680#8043#0" expanded="false" />
+            <element signature="e#9012#9502#0" expanded="false" />
+            <element signature="e#10269#12910#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Updater-dev.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3469388">
-          <caret line="136" column="52" selection-start-line="136" selection-start-column="52" selection-end-line="136" selection-end-column="52" />
+        <state vertical-scroll-proportion="-8.366667">
+          <caret line="150" column="45" selection-start-line="150" selection-start-column="45" selection-end-line="150" selection-end-column="45" />
           <folding>
             <element signature="e#25#50#0" expanded="true" />
-            <element signature="e#336#560#0" expanded="false" />
-            <element signature="e#1510#1630#0" expanded="false" />
-            <element signature="e#2957#3084#0" expanded="false" />
-            <element signature="e#5889#6358#0" expanded="false" />
-            <element signature="e#9038#9355#0" expanded="false" />
-            <element signature="e#9442#9759#0" expanded="false" />
-            <element signature="e#9847#10159#0" expanded="false" />
-            <element signature="e#10256#10480#0" expanded="false" />
-            <element signature="e#10591#10666#0" expanded="false" />
-            <element signature="e#13316#17914#0" expanded="false" />
-            <element signature="e#15690#16012#0" expanded="false" />
-            <element signature="e#16101#16423#0" expanded="false" />
-            <element signature="e#16512#16835#0" expanded="false" />
-            <element signature="e#16939#17181#0" expanded="false" />
-            <element signature="e#17291#17409#0" expanded="false" />
+            <element signature="e#3234#3361#0" expanded="false" />
+            <element signature="e#7419#7522#0" expanded="false" />
+            <element signature="e#7618#7726#0" expanded="false" />
+            <element signature="e#7804#8273#0" expanded="false" />
+            <element signature="e#8351#8478#0" expanded="false" />
+            <element signature="e#10953#11270#0" expanded="false" />
+            <element signature="e#11357#11674#0" expanded="false" />
+            <element signature="e#11762#12074#0" expanded="false" />
+            <element signature="e#12171#12395#0" expanded="false" />
+            <element signature="e#12506#12581#0" expanded="false" />
+            <element signature="e#12678#12728#0" expanded="false" />
+            <element signature="e#13112#13166#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controlador.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5">
+          <caret line="153" column="47" selection-start-line="153" selection-start-column="47" selection-end-line="153" selection-end-column="47" />
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
+            <element signature="e#380#2916#0" expanded="false" />
+            <element signature="e#1471#2844#0" expanded="false" />
+            <element signature="e#2963#3238#0" expanded="false" />
+            <element signature="e#4881#4969#0" expanded="false" />
+            <element signature="e#5022#5071#0" expanded="false" />
+            <element signature="e#5110#5272#0" expanded="false" />
+            <element signature="e#5309#5429#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/secretary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66068965">
+          <caret line="343" column="0" selection-start-line="343" selection-start-column="0" selection-end-line="343" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+            <element signature="e#349#4082#0" expanded="false" />
+            <element signature="e#498#986#0" expanded="false" />
+            <element signature="e#1036#1389#0" expanded="false" />
+            <element signature="e#1441#1475#0" expanded="false" />
+            <element signature="e#1537#2083#0" expanded="false" />
+            <element signature="e#2169#3844#0" expanded="false" />
+            <element signature="e#3877#4082#0" expanded="false" />
+            <element signature="e#4116#10045#0" expanded="false" />
+            <element signature="e#4258#4705#0" expanded="false" />
+            <element signature="e#4753#5672#0" expanded="false" />
+            <element signature="e#5741#10043#0" expanded="false" />
+            <element signature="e#6843#8206#0" expanded="false" />
+            <element signature="e#9175#9665#0" expanded="false" />
+            <element signature="e#10622#10681#0" expanded="false" />
+            <element signature="e#10723#10882#0" expanded="false" />
+            <element signature="e#10936#11160#0" expanded="false" />
+            <element signature="e#15235#16843#0" expanded="false" />
+            <element signature="e#17003#17281#0" expanded="false" />
+            <element signature="e#17332#17665#0" expanded="false" />
+            <element signature="e#17778#18022#0" expanded="false" />
+            <element signature="e#18121#18480#0" expanded="false" />
+            <element signature="e#18561#18805#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Unnamed1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -1,4 +1,4 @@
 DIRETORIO|C:\Users\arthur.sato\Desktop\pasta_kenzo
 MODO|DEV
 DEBUG|OFF
-T_ATUALIZACAO|10000
+T_ATUALIZACAO|60000
