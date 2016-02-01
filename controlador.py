@@ -8,7 +8,7 @@ from Configer import configer
 from secretary import *
 from entregador import *
 from authenticator import *
-import os,imp,sys,socket,getpass
+import os,imp,sys,socket,getpass,shutil,errno,stat
 import datetime
 
 class gestor_de_log(QtCore.QObject):
@@ -54,7 +54,7 @@ class gestor_de_log(QtCore.QObject):
         hora = hora_.strftime('%H:%M:%S')
         sender  = str(sender)
 
-        #
+
 
 
         if (self.debug==0 and (escopo_ =="DEBUG" or escopo_== "DEBUG_EXTRA")) or (self.debug==1 and escopo_=="DEBUG_EXTRA"):
@@ -106,8 +106,7 @@ class controlador(QObject):
         self.authenticator = gestor_autenticador()
         self.nome_pc = self.authenticator.get_pc_name()
         self.nome_user = getpass.getuser()
-        #self.list_programas = configer(self.get_main_dir() + "/" + "programas_do_usuario.txt")
-        #self.list_programas.read()
+
         self.user_diretorio = self.cfg.dictado["DIRETORIO"] # VEM O C:\\
         self.user_diretorio = self.user_diretorio.replace('\\','/')
         self.user_modo = self.cfg.dictado["MODO"] #VEM DEV OU CLIENT
@@ -124,12 +123,7 @@ class controlador(QObject):
         self.list_programas = self.secretaria.autent_user(self.nome_pc)
         self.entregador = wraper_de_diretorio(self, menssageiro_ = self.gm, debug_=self.dbg,signalcontrol_=self.sc,app_=self.app_ )
 
-    #Funcoes usadas por TELA e TELA2
-    def pegar_todos_projetos(self):
-        lista =  self.secretaria.get_all_projects()
-        return [x['PROJETO'] for x in lista]
-    def pegar_dados_projeto(self,nomeproj):
-        return self.secretaria.get_project_info(nomeproj)
+    #Utilidade interna
     def main_is_frozen(self):
         return (hasattr(sys, "frozen") or # new py2exe
                 hasattr(sys, "importers") # old py2exe
@@ -139,51 +133,59 @@ class controlador(QObject):
             return os.path.dirname(sys.executable)
         return os.path.dirname(sys.argv[0])
 
-    #Funcoes usadas pela TELA2
+    #Fornece informacoes pra TELA
+    def pegar_todos_projetos(self):
+        lista =  self.secretaria.get_all_projects()
+        return [x['PROJETO'] for x in lista]
+    def pegar_dados_projeto(self,nomeproj):
+        return self.secretaria.get_project_info(nomeproj)
+
+    #Comandos TELA sem botao
+    def atualizar_list_programas(self):
+        self.list_programas = self.secretaria.autent_user(self.nome_pc)
+
+    #Botoes TELA
     #exclui o projeto do db, tanto do project quanto do file
     def excluir(self,nome_projeto):
         self.secretaria.excluir_so_db(nome_projeto)
-    #muda os dados em python.updater_project_version
-    def atualizar(self,nome_projeto,diretorio,repositorio,tiporepositorio,executavel):
-        self.secretaria.atualizar_dados_projeto(nome_projeto,diretorio,repositorio,tiporepositorio,executavel)
+        #muda os dados em python.updater_project_version
+    def atualizar(self,nome_projeto,diretorio,repositorio,tiporepositorio,executavel,configs):
+        list_configs = configs.strip(" ").split("|")
+        new_configs=[x.replace(diretorio ,"") for x in list_configs]
+        self.secretaria.atualizar_configs(nome_projeto,new_configs)
+        self.secretaria.modificar_dados_projeto(nome_projeto,diretorio,repositorio,tiporepositorio,executavel,new_configs)
 
-    #Funcoes usadas pela TELA
     def deploy(self,nome_projeto):
-
-
-        verifica = self.secretaria.verifica_deploy(nome_projeto)
-
-        #if self.dbg == 'ON':
-        #        warum = "Tentativa de deploy, projeto nao existente no db: " + nome_projeto
-
-
+        verifica = self.secretaria.tem_projeto(nome_projeto)
         if(verifica==False):
             print "projeto nao existe ainda"
             if self.dbg == 'ON':
                 warum = "Tentativa de deploy, projeto nao existente no db: " + nome_projeto
                 self.gm.enviar_msg_(warum,"Controlador")
             return False
+
         else:
+            lista_files_modificados = self.secretaria.comparar_arquivos_projeto(nome_projeto)
+            if len(lista_files_modificados)==0:
+                print "Sem arquivos modificados"
+                return True
 
             self.sc.setv_up_(0)
             self.sc.show_janela_up_()
-
-            diretorio_projeto= self.secretaria.get_project_info(nome_projeto)
-
-            lista_de_files = [x['FILE'] for x in verifica]
-
+            dados_projeto= self.secretaria.get_project_info(nome_projeto)
+            lista_de_files = [x['FILE'] for x in lista_files_modificados]
             if len(lista_de_files)>0:
-
                 self.sc.setr_up_(len(lista_de_files))
-
-                verifi2 = self.entregador.sendFiles(lista_de_files, diretorio_projeto['REPOSITORIO'], diretorio_projeto['DIRETORIO'])
-
+                verifi2 = self.entregador.sendFiles(lista_de_files, dados_projeto['REPOSITORIO'], dados_projeto['DIRETORIO'])
                 self.sc.hide_janela_up_()
                 if verifi2 == True:
                     self.secretaria.registra_deploy(nome_projeto)
+                    self.secretaria.atualizar_configs(nome_projeto,dados_projeto['LISTA_CONFIGS'].split("|"))
+
                     if self.dbg == 'ON':
                         warum = "deploy feito com sucesso: " + nome_projeto
                         self.gm.enviar_msg_(warum,"Controlador")
+
                 return True
 
             else:
@@ -193,12 +195,14 @@ class controlador(QObject):
                 self.sc.hide_janela_up_()
                 return True
 
-
-    def new_project(self,nome_projeto,diretorio,versao,repositorio,tiporepositorio,executavel):
+    def new_project(self,nome_projeto,diretorio,versao,repositorio,tiporepositorio,executavel,configs):
         self.sc.setv_up_(0)
         self.sc.show_janela_up_()
         datamod = self.secretaria.data_agora()
-        lista_files_novos = self.secretaria.verifica_deploy(nome_projeto,{'DIRETORIO':diretorio,'VERSAO':versao,'REPOSITORIO':repositorio,'TIPOREPOSITORIO':tiporepositorio,'DATAMOD':datamod,'EXECUTAVEL':executavel})
+        list_new_configs = configs.split('|')
+        list_new_configs = [x.replace(diretorio,"") for x in list_new_configs]
+        configs_limpo = "|".join(list_new_configs)
+        lista_files_novos = self.secretaria.cadastra_projeto(nome_projeto,{'DIRETORIO':diretorio,'VERSAO':versao,'REPOSITORIO':repositorio,'TIPOREPOSITORIO':tiporepositorio,'DATAMOD':datamod,'EXECUTAVEL':executavel,'CONFIG':configs_limpo})
         lista_files_novos = [x['FILE'] for x in lista_files_novos]
         self.sc.setr_up_(len(lista_files_novos))
         if self.entregador.sendFiles(lista_files_novos, repositorio,diretorio) :
@@ -213,20 +217,18 @@ class controlador(QObject):
                 self.gm.enviar_msg_(warum,"Controlador")
         self.sc.hide_janela_up_()
         return True
+
     def instalar_executar_projeto(self,nome_projeto):
         #verifica se esse projeto ja foi instalado
         if nome_projeto not in self.list_programas.keys() :
             path_updater_projeto=self.instalar_programa(nome_projeto)
-            #dict_projeto = {nome_projeto : path_updater_projeto}
-            #escreve o projeto e atualiza
-            #self.list_programas.write(dict_projeto)
-            #self.list_programas.read()
             self.secretaria.insert_projeto(self.nome_pc,nome_projeto,path_updater_projeto,self.nome_user)
             self.list_programas = self.secretaria.autent_user(self.nome_pc)
             self.executar_programa(path_updater_projeto,nome_projeto)
         else:
             path_exec=self.list_programas[nome_projeto]
             self.executar_programa(path_exec,nome_projeto)
+
     #faz o shutil do updater-client
     def instalar_programa(self,nome_projeto):
         #cria pasta do novo projeto
@@ -254,3 +256,17 @@ class controlador(QObject):
             self.gm.enviar_msg_(u"Programa aberto com sucesso! "+ nome_projeto,"CONTROLADOR")
         else:
             self.gm.enviar_msg_(u"Programa não foi aberto com sucesso"+ nome_projeto,"CONTROLADOR")
+
+    def uninstall_programa(self,nome_projeto):
+        self.secretaria.uninstall_projeto(self.nome_pc,nome_projeto)
+        path_programa = self.user_diretorio +"/"+nome_projeto
+        #os.remove(unicode(path_programa))
+        shutil.rmtree(path_programa, ignore_errors=False, onerror=self.handleRemoveReadonly)
+
+    def handleRemoveReadonly(self,func, path, exc):
+      excvalue = exc[1]
+      if func in (os.rmdir, os.remove) and excvalue.errno == errno.EACCES:
+          os.chmod(path, stat.S_IRWXU| stat.S_IRWXG| stat.S_IRWXO) # 0777
+          func(path)
+      else:
+          raise

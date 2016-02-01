@@ -114,7 +114,6 @@ class QtSqlConnector(QtCore.QObject):
                 self.gm.enviar_msg_('Erro no fechamento da Conexao'+str(sys.exc_info()[1]),str(self),"ERRO")
 
             pass
-
 class Easy_Query(QObject):
 
     mensagem_ = QtCore.pyqtSignal(str)
@@ -280,13 +279,15 @@ class secretary(QObject):
         self.eq_ = Easy_Query(QtSqlConnector.sgetDB("mysql"),menssageiro_=self.gm,debug_=self.dbg)
         self.app_ = app_
         self.entregador = wraper_de_diretorio(menssageiro_=self.gm ,debug_=self.dbg, signalcontrol_=self.sc,app_=self.app_)
+
+    #Utilidade interna
     def data_agora(self):
         return time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-    def get_all_projects(self):
 
+    #Fornece informações pra TELA
+    def get_all_projects(self):
         query_projetos = "Select * from python.updater_project_version ;"
         lista_projetos = self.eq_.Query_Result(query_projetos)
-
         return lista_projetos
     def get_project_info(self,nome_projeto):
         query_table_projeto = "select * from python.updater_project_version where projeto = '{0}' ;".format(nome_projeto)
@@ -309,7 +310,6 @@ class secretary(QObject):
                 query_criacao2 = query_criacao2 + unicode("('{0}','{1}','{2}'),").format(unicode(nome_projeto),unicode(elemento['FILE'].replace("\\","/")),elemento['DATEMODIFICATION'])
             query_criacao2 = query_criacao2[:-1] + ";"
             self.eq_.Query_no_Result(query_criacao2)
-
             return lista_files
 
         #VERIFICA se projeto ja existe
@@ -320,7 +320,7 @@ class secretary(QObject):
             pasta_diretorio = list_verification[0]['DIRETORIO']
             pasta_repositorio = list_verification[0]['REPOSITORIO']
             #olha os arquivos no diretorio
-            lista_files = self.entregador.getFiles(list_verification[0]['DIRETORIO'])
+            lista_files = self.entregador.getFiles(list_verification[0]['DIRETORIO'],[])
             #olha os arquivos no DB
             query_verification2 = "select * from python.updater_files_version where projeto = '{0}' ;".format(nome_projeto)
             list_verification2 = self.eq_.Query_Result(query_verification2)
@@ -338,31 +338,102 @@ class secretary(QObject):
             if len(list_verification)>0 :
                 #procegue com  a logica de  verificacao
                 #print lista_files
-                lista_dict_modificar=[]
-                lista_files_modificar=[]
 
+                index_lista_files =dict((x['DATEMODIFICATION']+x['FILE'],x) for x in  lista_files)
+                index_list_verification2 = dict((str(x['DATAMOD'].toPyDateTime())+x['FILE'],x) for x in list_verification2)
+                result_diff = set.difference(set(index_lista_files.keys()),set(index_list_verification2.keys()))
+                return [index_lista_files[y] for y in result_diff ]
 
-                for x in lista_files:
-                    for y in list_verification2:
-                        if((datetime.datetime.strptime(x['DATEMODIFICATION'],'%Y-%m-%d %H:%M:%S')>y['DATAMOD'].toPyDateTime() and x['FILE']==y['FILE']) or (x['FILE'] not in lista_files_nomes and x['FILE'] not in lista_files_modificar)):
-                            #query_substituicao = " python.updater_files_version where projeto = '{0}'".format()
-                            lista_dict_modificar.append(x)
-                            lista_files_modificar.append(x['FILE'])
-
-                return lista_dict_modificar
             else:
                 #retorna false .. nao tem cadastro desse projeto
                 print"NAO TEM"
                 return False
 
-        #FIM
+    def tem_projeto(self,nome_projeto):
+        query_verification = "select * from python.updater_project_version where projeto = '{0}' ;".format(nome_projeto)
+        list_verification = self.eq_.Query_Result(query_verification)
+        if len(list_verification)>0:
+            return True
+        else:
+            return False
+    def cadastra_projeto(self,nome_projeto,parametros_projeto={}):
+        query_criacao1 = "REPLACE INTO python.updater_project_version VALUES ('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}') ".format(unicode(nome_projeto),parametros_projeto['VERSAO'],parametros_projeto['DATAMOD'],unicode(parametros_projeto['DIRETORIO']),unicode(parametros_projeto['REPOSITORIO']),unicode(parametros_projeto['TIPOREPOSITORIO']),unicode(parametros_projeto['EXECUTAVEL']),unicode(parametros_projeto['CONFIG']))
+        self.eq_.Query_no_Result(query_criacao1)
+        lista_files_dir = self.entregador.getFiles(parametros_projeto['DIRETORIO'],[])
+        lista_files_config = parametros_projeto['CONFIG'].split("|")
+        lista_files_config = [x.replace(parametros_projeto['DIRETORIO'],"") for x in lista_files_config]
+        #coloca no db
+        query_criacao2 = "REPLACE INTO python.updater_files_version (projeto,file,datamod,tipo) values "
+        for elemento in lista_files_dir:
+            if elemento['FILE'] not in lista_files_config:
+                query_criacao2 = query_criacao2 + unicode("('{0}','{1}','{2}','{3}'),").format(unicode(nome_projeto),unicode(elemento['FILE'].replace("\\","/")),elemento['DATEMODIFICATION'],u'normal')
+            else:
+                query_criacao2 = query_criacao2 + unicode("('{0}','{1}','{2}','{3}'),").format(unicode(nome_projeto),unicode(elemento['FILE'].replace("\\","/")),elemento['DATEMODIFICATION'],u'config')
 
-    #REGISTRA deploy de um projeto ja existente, SO MEXE NO DB
+        query_criacao2 = query_criacao2[:-1] + ";"
+        self.eq_.Query_no_Result(query_criacao2)
+        return lista_files_dir
+
+
+    def tem_diferenca_projeto(self,nome_projeto):
+        dict_dados_projeto = self.get_project_info(nome_projeto)
+        pasta_diretorio = dict_dados_projeto['DIRETORIO']
+        lista_files_dir =  self.entregador.getFiles(pasta_diretorio,[])
+        query_files_repo = "select * from python.updater_files_version where projeto = '{0}' ;".format(nome_projeto)
+        list_files_db = self.eq_.Query_Result(query_files_repo)
+
+        index_lista_files_dir =dict((x['DATEMODIFICATION']+x['FILE'],x) for x in  lista_files_dir)
+        index_list_files_db = dict((str(x['DATAMOD'].toPyDateTime())+x['FILE'],x) for x in list_files_db)
+        result_diff  =  set.difference(set(index_lista_files_dir.keys()),set(index_list_files_db.keys()))
+        dict_diff = [index_lista_files_dir[y] for y in result_diff ]
+
+        if len(dict_diff)>0:
+            print "teve mudanca no projeto"
+            return True
+
+        else:
+            print "nao teve mudanca no projeto"
+            return False
+
+    def comparar_arquivos_projeto(self,nome_projeto):
+        #pega dados do projeto e deixa facil de ler
+        dict_dados_projeto = self.get_project_info(nome_projeto)
+        pasta_diretorio = dict_dados_projeto['DIRETORIO']
+        pasta_repositorio = dict_dados_projeto['REPOSITORIO']
+        lista_files_dir =  self.entregador.getFiles(pasta_diretorio,[])
+
+        query_files_repo = "select * from python.updater_files_version where projeto = '{0}' ;".format(nome_projeto)
+        list_files_db = self.eq_.Query_Result(query_files_repo)
+
+        #lista os arquivos mudados/novos
+        index_lista_files_dir =dict((x['DATEMODIFICATION']+x['FILE'],x) for x in  lista_files_dir)
+        index_list_files_db = dict((str(x['DATAMOD'].toPyDateTime())+x['FILE'],x) for x in list_files_db)
+        result_diff = set.difference(set(index_lista_files_dir.keys()),set(index_list_files_db.keys()))
+        dict_diff = [index_lista_files_dir[y] for y in result_diff ]
+
+        #Tira do DB os arquivos que estao no DB mas nao estao no Diretorio
+        lista_so_files_repo  = [x_['FILE'] for x_ in list_files_db]
+        lista_so_files_dir = [x['FILE'] for x in lista_files_dir]
+        for y in lista_so_files_repo:
+            if y not in lista_so_files_dir:
+                query_deletar = u"delete from python.updater_files_version where file = '{0}' ;".format(unicode(y))
+                self.eq_.Query_no_Result(query_deletar)
+                end_rem_file = pasta_repositorio + unicode(y)
+                os.remove(unicode(end_rem_file))
+
+        if len(dict_diff)>0:
+            print "teve mudanca no projeto"
+            return dict_diff
+
+        else:
+            print "nao teve mudanca no projeto"
+            return []
+
+    #Funcoes DEV oficializar deploy/edicao/exclusao de Projetos
     def registra_deploy(self,nome_projeto,lista_dict_dados=[]):
         #faz query dos dados do projeto
         query_table_projeto = "select * from python.updater_project_version where projeto = '{0}' ;".format(nome_projeto)
         lista_dados_projeto = self.eq_.Query_Result(query_table_projeto)
-        # atualiza versao
         nova_versao = float(lista_dados_projeto[0]['VERSAO'])+0.1
         #pega lista de files a serem mudados
         lista_files_mudados=self.verifica_deploy(nome_projeto)
@@ -374,30 +445,37 @@ class secretary(QObject):
         query_update1="REPLACE INTO python.updater_project_version  VALUES ('{0}','{1}','{2}','{3}','{4}','{5}','{6}') ;".format(unicode(nome_projeto) ,unicode(nova_versao) ,unicode(data_mudanca),unicode(lista_dados_projeto[0]['DIRETORIO']),unicode(lista_dados_projeto[0]['REPOSITORIO']),unicode(lista_dados_projeto[0]['TIPOREPOSITORIO']),unicode(lista_dados_projeto[0]['EXECUTAVEL']))
         self.eq_.Query_no_Result(query_update1)
         #faz a atualizacao da table update_files_version PARA CADA FILE
-        query_update2 = "REPLACE INTO python.updater_files_version (projeto,file,datamod) values "
+        query_update2 = "REPLACE INTO python.updater_files_version (projeto,file,datamod,tipo) values "
 
         for i in lista_files_mudados:
-            query_update2= query_update2 + unicode("('{0}','{1}','{2}'),").format(nome_projeto,i['FILE'],i['DATEMODIFICATION'])
+            query_update2= query_update2 + unicode("('{0}','{1}','{2}','{3}'),").format(nome_projeto,i['FILE'],i['DATEMODIFICATION'],'normal')
         #tira a virgula
         query_update2 = query_update2[:-1] + ";"
         if query_update2 != "REPLACE INTO python.updater_files_version (projeto,file,datamod) values;":
             self.eq_.Query_no_Result(query_update2)
 
         return True
-
-    #EDITA dados de um projeto ja existente(OLD)
-    def atualizar_dados_projeto(self,nome_projeto,diretorio,repositorio,tiporeposirotio,executavel):
-        query_atualizar = "UPDATE python.updater_project_version SET DIRETORIO ='{0}', REPOSITORIO='{1}',TIPOREPOSITORIO='{2}',EXECUTAVEL='{3}' WHERE PROJETO='{4}' ;".format(diretorio,repositorio,tiporeposirotio,executavel,nome_projeto)
+    def modificar_dados_projeto(self,nome_projeto,diretorio,repositorio,tiporeposirotio,executavel,configs):
+        query_atualizar = "UPDATE python.updater_project_version SET DIRETORIO ='{0}', REPOSITORIO='{1}',TIPOREPOSITORIO='{2}',EXECUTAVEL='{3}',LISTA_CONFIGS='{5}' WHERE PROJETO='{4}' ;".format(diretorio,repositorio,tiporeposirotio,executavel,nome_projeto,configs)
         self.eq_.Query_no_Result(query_atualizar)
+
     def excluir_so_db(self,nome_projeto):
         query_deletar_project='delete from python.updater_project_version where projeto="{0}";'.format(nome_projeto)
         query_deletar_files = "delete from python.updater_files_version where projeto='{0}';".format(nome_projeto)
+        query_deletar_users = "delete from python.updater_users where projeto = '{0}' ;".format(nome_projeto)
         self.eq_.Query_no_Result(query_deletar_project)
         self.eq_.Query_no_Result(query_deletar_files)
+        self.eq_.Query_no_Result(query_deletar_users)
+
+    def atualizar_configs(self,nome_projeto,lista_configs):
+        for x in lista_configs:
+            if x != '':
+                query_update2= "UPDATE python.updater_files_version SET TIPO='{0}' WHERE PROJETO ='{1}' AND FILE='{2}' ;".format('config',nome_projeto,x)
+                self.eq_.Query_no_Result(query_update2)
 
     #Faz o shutil pro controlador
     def instalar_projeto(self,path_novo_projeto,path_updaterclient):
-        lista_arquivos=self.entregador.getFiles(path_updaterclient)
+        lista_arquivos=self.entregador.getFiles(path_updaterclient,[])
         lista_files = [x['FILE'] for x in lista_arquivos]
         self.sc.setr_(len(lista_files))
         self.entregador.Update_files(lista_files,path_novo_projeto,path_updaterclient)
@@ -409,12 +487,13 @@ class secretary(QObject):
         dict_projeto = {}
         for x in asdfasdf:
             dict_projeto[x['PROJETO']] =  x['EXECUTAVEL']
-
         dict_projeto = dict((x['PROJETO'],x['EXECUTAVEL']) for x in asdfasdf)
-
         return dict_projeto
+
     def insert_projeto(self,usuario,nome_projeto,executavel,nome_user):
         query_inserir_programa = u"INSERT INTO python.updater_users VALUES ('{0}','{1}','{2}','{3}');".format(unicode(usuario),unicode(nome_projeto),unicode(executavel),unicode(nome_user))
         return self.eq_.Query_no_Result(query_inserir_programa)
 
-
+    def uninstall_projeto(self,usuario,nome_projeto):
+        query_deletar_projeto = u"DELETE FROM python.updater_users where NOMEPC = '{0}' and PROJETO = '{1}' ;".format(unicode(usuario),unicode(nome_projeto))
+        return self.eq_.Query_no_Result(query_deletar_projeto)

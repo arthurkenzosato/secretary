@@ -12,8 +12,6 @@ from secretary import *
 from authenticator import *
 import os,sys,imp,getpass
 
-
-
 class tela_inicial(QtWidgets.QMainWindow):
     def main_is_frozen(self):
         return (hasattr(sys, "frozen") or # new py2exe
@@ -48,7 +46,6 @@ class tela_inicial(QtWidgets.QMainWindow):
             self.app2_.setQuitOnLastWindowClosed(False)
             self.y = tela_cliente(self.app2_,self,signalcontrol_= self.sc)
 
-
 class tela_cliente(QtWidgets.QMainWindow):
     def __init__(self,app_,mainw,signalcontrol_):
         super(tela_cliente,self).__init__()
@@ -66,7 +63,14 @@ class tela_cliente(QtWidgets.QMainWindow):
         self.icon_refresh = QtGui.QIcon(refresh_path)
         programs_path = self.controlador.get_main_dir() + "/im/programs-icon.png"
         self.icon_programs = QtGui.QIcon(programs_path)
-
+        uninstall_path = self.controlador.get_main_dir() + "/im/delete-icon.png"
+        self.icon_uninstall = QtGui.QIcon(uninstall_path)
+        run_path = self.controlador.get_main_dir() +"/im/run-icon.png"
+        self.icon_run = QtGui.QIcon(run_path)
+        yellow_path = self.controlador.get_main_dir() + "/im/yellow_light-icon.png"
+        self.icon_yellow =QtGui.QIcon(yellow_path)
+        white_path = self.controlador.get_main_dir() +"/im/white_light-icon.png"
+        self.icon_white = QtGui.QIcon(white_path)
         self.tray_cliente = QtWidgets.QSystemTrayIcon(icon)
         self.menu_tray = QtWidgets.QMenu()
         self.tray_cliente.setContextMenu(self.menu_tray)
@@ -80,15 +84,35 @@ class tela_cliente(QtWidgets.QMainWindow):
             objeto_ = self.sender()
             nome =objeto_.property("NAME")
             self.controlador.instalar_executar_projeto(nome)
+            self.popula_tray()
         self.abrirprograma_fnc = abrir_progama
+        def uninstall_projeto():
+            objeto_ = self.sender()
+            nome =objeto_.property("NAME")
+            choice=QMessageBox.question(self,"Desinstalar", u"Você está certo que quer Desinstalar o projeto {0}?".format(nome))
+            if choice == QMessageBox.Yes:
+                print('DELETANDO')
+                self.controlador.uninstall_programa(nome)
+            else:
+                pass
+            self.popula_tray()
+        self.uninstall_fnc = uninstall_projeto
         self.popula_tray()
-
 
     def fecha_tudo(self):
         self.tray_cliente.hide()
         self.parentwindow.app.quit()
 
     def popula_tray(self):
+        #força reabrir a conneccao
+        db = QtSqlConnector.sgetDB("mysql")
+        try:
+            db.close()
+        except:
+            pass
+        db.open()
+        self.controlador.atualizar_list_programas()
+
         #Zera toda a tray
         self.ref_tray=[]
         self.lista_projetos = self.controlador.pegar_todos_projetos()
@@ -100,31 +124,36 @@ class tela_cliente(QtWidgets.QMainWindow):
         #self.menu_tray.addAction(atualizar_reload)
         atualizar_reload = self.menu_tray.addAction(self.icon_refresh,"Atualizar Tray")
         atualizar_reload.triggered.connect(self.popula_tray)
-        self.menu_projetos = self.menu_tray.addMenu(self.icon_programs,"Projetos")
 
+        #Adiciona SubMenu dos Projetos
+        self.menu_tray.addSeparator()
         for projeto in self.lista_projetos:
             if self.controlador.dbg=='ON':
                 warum = "Projeto adicionado na tray: " + projeto
                 self.controlador.gm.enviar_msg_(warum,"JANELA_CLIENT")
 
-            if(projeto not in self.controlador.list_programas.keys()):
-                aba_project = self.menu_projetos.addAction(self.icon_down,projeto)
-
+            if projeto not in self.controlador.list_programas.keys():
+                menu_ = self.menu_tray.addMenu(self.icon_white,projeto)
+                instar_ = menu_.addAction(self.icon_down,"Instalar ")
+                instar_.setProperty("NAME",projeto)
             else:
-                aba_project = self.menu_projetos.addAction(self.icon_green,projeto)
-            aba_project.setProperty("NAME",projeto)
-            self.ref_tray.append(aba_project)
+                menu_ = self.menu_tray.addMenu(self.icon_green,projeto)
+                instar_ = menu_.addAction(self.icon_run,"Instalar/Executar")
+                instar_.setProperty("NAME",projeto)
 
-            aba_project.triggered.connect(self.abrirprograma_fnc)
+            uninstall_ = menu_.addAction(self.icon_uninstall,"Desinstalar")
+            uninstall_.setProperty("NAME",projeto)
+            self.ref_tray.append(menu_)
+            instar_.triggered.connect(self.abrirprograma_fnc)
+            uninstall_.triggered.connect(self.uninstall_fnc)
+
         #Adciona QAction Saida do Sistema
         self.menu_tray.addSeparator()
         quit_action = QtWidgets.QAction("Sair",self)
         self.menu_tray.addAction(quit_action)
         quit_action.triggered.connect(self.fecha_tudo)
 
-
 class janela_dev(QtWidgets.QMainWindow):
-
     def __init__(self,app_,mainw,signalcontrol_):
         super(janela_dev,self).__init__()
         self.parentwindow = mainw
@@ -145,7 +174,7 @@ class janela_dev(QtWidgets.QMainWindow):
         self.icon_down = QtGui.QIcon(down_path)
         config_path = self.controlador.get_main_dir()+"/im/config-icon.png"
         self.icon_config = QtGui.QIcon(config_path)
-        deploy_path = self.controlador.get_main_dir()+"/im/deploy-icon.png"
+        deploy_path = self.controlador.get_main_dir()+"/im/upload-icon.png"
         self.icon_deploy = QtGui.QIcon(deploy_path)
         run_path = self.controlador.get_main_dir() +"/im/run-icon.png"
         self.icon_run = QtGui.QIcon(run_path)
@@ -155,6 +184,14 @@ class janela_dev(QtWidgets.QMainWindow):
         self.icon_plus = QtGui.QIcon(plus_path)
         program_path = self.controlador.get_main_dir() + "/im/programs-icon.png"
         self.icon_programs = QtGui.QIcon(program_path)
+        uninstall_path = self.controlador.get_main_dir() + "/im/delete-icon.png"
+        self.icon_uninstall = QtGui.QIcon(uninstall_path)
+        yellow_path = self.controlador.get_main_dir() + "/im/yellow_light-icon.png"
+        self.icon_yellow =QtGui.QIcon(yellow_path)
+        check_path = self.controlador.get_main_dir() +"/im/check-icon.png"
+        self.icon_check = QtGui.QIcon(check_path)
+        white_path = self.controlador.get_main_dir() + "/im/white_light-icon.png"
+        self.icon_white = QtGui.QIcon(white_path)
 
         self.tray_ = QtWidgets.QSystemTrayIcon(icon)
         self.app = app_
@@ -171,9 +208,9 @@ class janela_dev(QtWidgets.QMainWindow):
         self.janelanovoprojeto_fnc = janela_novo_projeto
         def pre_deploy():
             objeto_ = self.sender()
-            nome =objeto_.property("NAME")
+            nome = objeto_.property("NAME")
             self.controlador.deploy(nome)
-
+            self.popula_tray()
         self.predeploy_fnc = pre_deploy
         def pre_edit():
             objeto_ = self.sender()
@@ -184,13 +221,28 @@ class janela_dev(QtWidgets.QMainWindow):
             self.y.le_dire2.setText(dict_dados['DIRETORIO'])
             self.y.le_repo2.setText(dict_dados['REPOSITORIO'])
             self.y.le_executavel2.setText(dict_dados['EXECUTAVEL'])
+            self.y.le_config2.setText(dict_dados['LISTA_CONFIGS'])
             self.y.show()
         self.preedit_fnc = pre_edit
         def abrir_progama():
             objeto_ = self.sender()
             nome =objeto_.property("NAME")
             self.controlador.instalar_executar_projeto(nome)
+            self.popula_tray()
         self.instar_fnc = abrir_progama
+        #def hovered_info():
+
+        def uninstall_projeto():
+            objeto_ = self.sender()
+            nome =objeto_.property("NAME")
+            choice=QMessageBox.question(self,"Desinstalar", u"Você está certo que quer Desinstalar o projeto {0}?".format(nome))
+            if choice == QMessageBox.Yes:
+                print('DELETANDO')
+                self.controlador.uninstall_programa(nome)
+            else:
+                pass
+            self.popula_tray()
+        self.uninstall_fnc = uninstall_projeto
 
         #Populando a tray
         self.menu_tray = QtWidgets.QMenu()
@@ -223,19 +275,28 @@ class janela_dev(QtWidgets.QMainWindow):
         self.lay_repo.addWidget(self.label4)
         self.lay_repo.addWidget(self.le4)
         self.button_repo = QPushButton("...")
+        self.lay_repo.addWidget(self.button_repo)
         self.lay_executavel = QHBoxLayout()
         self.label5 = QLabel(u'Endereço do Executavel')
         self.le5 = QLineEdit()
         self.lay_executavel.addWidget(self.label5)
         self.lay_executavel.addWidget(self.le5)
         self.button_executavel = QPushButton("...")
+        self.lay_executavel.addWidget(self.button_executavel)
+        self.lay_config = QHBoxLayout()
+        self.label6 = QLabel(u"Arquivos configuração")
+        self.le6 = QLineEdit()
+        self.lay_config.addWidget(self.label6)
+        self.lay_config.addWidget(self.le6)
+        self.button_config = QPushButton("...")
+        self.lay_config.addWidget(self.button_config)
         self.lay1.addLayout(self.lay_nomeprod)
         self.lay1.addLayout(self.lay_tiporepo)
         self.lay1.addLayout(self.lay_dire)
-        self.lay1.addLayout(self.lay_repo)
         self.lay1.addLayout(self.lay_executavel)
-        self.lay_repo.addWidget(self.button_repo)
-        self.lay_executavel.addWidget(self.button_executavel)
+        self.lay1.addLayout(self.lay_config)
+        self.lay1.addLayout(self.lay_repo)
+
         self.button_novoproj = QPushButton('Novo Projeto')
         self.lay1.addWidget(self.button_novoproj)
         widgetfinal = QtWidgets.QWidget()
@@ -246,7 +307,6 @@ class janela_dev(QtWidgets.QMainWindow):
         self.arquivo = open(self.diretorio+'/stylesheet.txt','r')
         self.style = self.arquivo.read()
         self.setStyleSheet(self.style)
-
 
         #Declarando as Funcoes dos Botoes da TELA
         def dialog_1():
@@ -276,8 +336,19 @@ class janela_dev(QtWidgets.QMainWindow):
             self.le5.setText(directories[0])
             return
         self.button_executavel.clicked.connect(dialog_3)
+        def dialog_4():
+            var_di = str(self.le6.text())
+            dialog = QtWidgets.QFileDialog(self,u"Selecione os configs do Programa")
+            dialog.setFileMode(QtWidgets.QFileDialog.ExistingFile)
+            #dialog.setSelectionMode(QtGui.QAbstractItemView.MultiSelection)
+            directories=['']
+            if dialog.exec_():
+                directories = dialog.selectedFiles()
+            self.le6.setText(str(self.le6.text()) + ('|' if str(self.le6.text())!='' else '')+ directories[0])
+            return
+        self.button_config.clicked.connect(dialog_4)
         def new_project():
-            self.controlador.new_project(self.le1.text(),self.le3.text(),"1.0",self.le4.text().replace("\\","/"),self.le2.text().replace("\\","/"),self.le5.text().replace("\\","/"))
+            self.controlador.new_project(self.le1.text(),self.le3.text(),"1.0",self.le4.text().replace("\\","/"),self.le2.text().replace("\\","/"),self.le5.text().replace("\\","/"),self.le6.text().replace("\\","/").strip(" "))
             self.popula_tray()
             self.hide()
         self.button_novoproj.clicked.connect(new_project)
@@ -285,7 +356,6 @@ class janela_dev(QtWidgets.QMainWindow):
             if reason == QtWidgets.QSystemTrayIcon.Trigger:
                 self.show()
         self.tray_.activated.connect(comportamento_tray)
-
         def timer_tray():
             self.popula_tray()
             print "Atualizando"
@@ -304,49 +374,89 @@ class janela_dev(QtWidgets.QMainWindow):
         self.parentwindow.app.quit()
 
     def popula_tray(self):
+        #força reabrir a conneccao
+        db = QtSqlConnector.sgetDB("mysql")
+        try:
+            db.close()
+        except:
+            pass
+        db.open()
+        self.controlador.atualizar_list_programas()
+
         #Zera toda a tray
         self.ref_tray=[]
         self.lista_projetos = self.controlador.pegar_todos_projetos()
         self.menu_tray.clear()
         if self.controlador.dbg=='ON':
             self.controlador.gm.enviar_msg_("ATUALIZACAO INICIADA, tray limpa","JANELA_DEV")
-        #Adiciona QAction do novo projeto
-        #atualizar_reload = QtWidgets.QAction("Atualizar Tray",self)
-        #self.menu_tray.addAction(atualizar_reload)
         atualizar_reload = self.menu_tray.addAction(self.icon_refresh, "Atualizar Tray")
-        #abrir_new_project = QtWidgets.QAction("Adicionar Novo Projeto",self)
-        #self.menu_tray.addAction(abrir_new_project)
+        self.menu_tray.addSeparator()
         abrir_new_project = self.menu_tray.addAction(self.icon_plus, "Adicionar Novo Projeto")
         atualizar_reload.triggered.connect(self.popula_tray)
         abrir_new_project.triggered.connect(self.janelanovoprojeto_fnc)
+
         #Adiciona SubMenu dos Projetos
         self.menu_tray.addSeparator()
-        self.menu_projetos = self.menu_tray.addMenu(self.icon_programs, "Projetos")
+        #self.menu_projetos = self.menu_tray.addMenu(self.icon_programs, "Projetos")
+
 
         for projeto in self.lista_projetos:
-            if self.controlador.dbg=='ON':
+            ''' if self.controlador.dbg=='ON':
                 warum = "Projeto adicionado na tray: " + projeto
-                self.controlador.gm.enviar_msg_(warum,"JANELA_DEV")
+                self.controlador.gm.enviar_msg_(warum,"JANELA_DEV")'''
 
-            if projeto not in self.controlador.list_programas.keys():
-                menu_ = self.menu_projetos.addMenu(self.icon_down,projeto)
+            verifi = self.controlador.secretaria.tem_diferenca_projeto(projeto)
+
+            if projeto not in self.controlador.list_programas.keys() and verifi==True:
+                menu_ = self.menu_tray.addMenu(self.icon_white,projeto)
+                action_ = menu_.addAction(self.icon_deploy,"Fazer Deploy")
+                action_.setProperty("NAME",projeto)
+                instar_ = menu_.addAction(self.icon_down,"Instalar ")
+                instar_.setProperty("NAME",projeto)
+                exclude_ = menu_.addAction(self.icon_config,"Editar/Excluir")
+
+            elif projeto in self.controlador.list_programas.keys() and  verifi==True:
+                menu_ = self.menu_tray.addMenu(self.icon_yellow,projeto)
+                action_ = menu_.addAction(self.icon_deploy,"Fazer Deploy")
+                action_.setProperty("NAME",projeto)
+                instar_ = menu_.addAction(self.icon_run,"Executar")
+                instar_.setProperty("NAME",projeto)
+                exclude_ = menu_.addAction(self.icon_config,"Editar/Excluir")
+                uninstall_ = menu_.addAction(self.icon_uninstall,"Desinstalar")
+                uninstall_.setProperty("NAME",projeto)
+                uninstall_.triggered.connect(self.uninstall_fnc)
+            elif projeto not in self.controlador.list_programas.keys() and verifi==False:
+                menu_ = self.menu_tray.addMenu(self.icon_white,projeto)
+                action_ = menu_.addAction(self.icon_check,"Deploy Feito")
+                action_.setProperty("NAME",projeto)
+                instar_ = menu_.addAction(self.icon_down,"Instalar ")
+                instar_.setProperty("NAME",projeto)
+                exclude_ = menu_.addAction(self.icon_config,"Editar/Excluir")
+
             else:
-                menu_ = self.menu_projetos.addMenu(self.icon_green,projeto)
+                #menu_ = self.menu_projetos.addMenu(self.icon_green,projeto)
+                menu_ = self.menu_tray.addMenu(self.icon_green,projeto)
+                action_ = menu_.addAction(self.icon_check,"Deploy")
+                action_.setProperty("NAME",projeto)
+                instar_ = menu_.addAction(self.icon_run,"Executar")
+                instar_.setProperty("NAME",projeto)
+                exclude_ = menu_.addAction(self.icon_config,"Editar/Excluir")
+                uninstall_ = menu_.addAction(self.icon_uninstall,"Desinstalar")
+                uninstall_.setProperty("NAME",projeto)
+                uninstall_.triggered.connect(self.uninstall_fnc)
 
-            action_ = menu_.addAction(self.icon_deploy,"Deploy")
-            action_.setProperty("NAME",projeto)
-            exclude_ = menu_.addAction(self.icon_config,"Editar/Excluir")
+
+            #instar_ = menu_.addAction(self.icon_run,"Instalar/Executar")
+
+            #exclude_ = menu_.addAction(self.icon_config,"Editar/Excluir")
             exclude_.setProperty("NAME",projeto)
-            instar_ = menu_.addAction(self.icon_run,"Instalar/Executar")
-            instar_.setProperty("NAME",projeto)
-            menu_.addAction(action_)
-            menu_.addAction(exclude_)
-            menu_.addAction(instar_)
+            #instar_.hovered.connect(QToolTip.showText("TESTE"))
+
             self.ref_tray.append(menu_)
-            #self.menu_projetos.addMenu(menu_)
             action_.triggered.connect(self.predeploy_fnc)
             exclude_.triggered.connect(self.preedit_fnc)
             instar_.triggered.connect(self.instar_fnc)
+
 
         #Adciona QAction Saida do Sistema
         self.menu_tray.addSeparator()
@@ -397,11 +507,20 @@ class janela_edicao(QtWidgets.QMainWindow):
         self.lay_executavel2.addWidget(self.le_executavel2)
         self.button_executavel2 = QPushButton("...")
         self.lay_executavel2.addWidget(self.button_executavel2)
+        self.lay_config2 = QHBoxLayout()
+        self.label_config2 = QLabel(u"Arquivos configuração")
+        self.le_config2 = QLineEdit()
+        self.lay_config2.addWidget(self.label_config2)
+        self.lay_config2.addWidget(self.le_config2)
+        self.button_config2 = QPushButton("...")
+        self.lay_config2.addWidget(self.button_config2)
         self.lay2.addLayout(self.lay_nomeprod2)
         self.lay2.addLayout(self.lay_tiporepo2)
         self.lay2.addLayout(self.lay_dire2)
-        self.lay2.addLayout(self.lay_repo2)
         self.lay2.addLayout(self.lay_executavel2)
+        self.lay2.addLayout(self.lay_config2)
+        self.lay2.addLayout(self.lay_repo2)
+
         self.button_editarproj = QPushButton('Atualizar')
         self.lay2.addWidget(self.button_editarproj)
         self.button_excluirproj=QPushButton('Excluir')
@@ -435,8 +554,17 @@ class janela_edicao(QtWidgets.QMainWindow):
             self.le_executavel2.setText(directories[0])
             return
         self.button_executavel2.clicked.connect(dialog_3)
+        def dialog_4():
+            dialog = QtWidgets.QFileDialog(self,u"Selecione os configs do Programa")
+            dialog.setFileMode(QtWidgets.QFileDialog.ExistingFile)
+            directories=['']
+            if dialog.exec_():
+                directories = dialog.selectedFiles()
+            self.le_config2.setText(str(self.le_config2.text()) + ('|' if str(self.le_config2.text())!='' else '')+ directories[0])
+            return
+        self.button_config2.clicked.connect(dialog_4)
         def atualizar_projeto():
-            self.controlador.atualizar(self.le_nomeprod2.text(),self.le_dire2.text().replace("\\","/"),self.le_repo2.text().replace("\\","/"),self.le_tiporepo2.text().replace("\\","/"),self.le_executavel2.text().replace("\\","/"))
+            self.controlador.atualizar(self.le_nomeprod2.text(),self.le_dire2.text().replace("\\","/"),self.le_repo2.text().replace("\\","/"),self.le_tiporepo2.text().replace("\\","/"),self.le_executavel2.text().replace("\\","/"),self.le_config2.text().strip(" ").replace("\\","/"))
             self.hide()
         self.button_editarproj.clicked.connect(atualizar_projeto)
         def excluir_projeto():
