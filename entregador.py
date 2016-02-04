@@ -9,6 +9,7 @@ import os
 from controlador import *
 import shutil
 
+asdf='asdf'
 
 
 class wraper_de_entrega(QObject):
