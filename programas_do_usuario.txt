@@ -1,4 +1,0 @@
-
-
-AtuViewer|C:/Users/arthur.sato/Desktop/pasta_kenzo/AtuViewer/Controlador.exe
-NewVAR|C:/Users/arthur.sato/Desktop/pasta_kenzo/NewVAR/Controlador.exe

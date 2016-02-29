@@ -71,6 +71,8 @@ class tela_cliente(QtWidgets.QMainWindow):
         self.icon_yellow =QtGui.QIcon(yellow_path)
         white_path = self.controlador.get_main_dir() +"/im/white_light-icon.png"
         self.icon_white = QtGui.QIcon(white_path)
+        alert_path = self.controlador.get_main_dir() + "/im/alert_icon.png"
+        self.icon_alert = QtGui.QIcon(alert_path)
         self.tray_cliente = QtWidgets.QSystemTrayIcon(icon)
         self.menu_tray = QtWidgets.QMenu()
         self.tray_cliente.setContextMenu(self.menu_tray)
@@ -138,14 +140,17 @@ class tela_cliente(QtWidgets.QMainWindow):
                 instar_.setProperty("NAME",projeto)
             else:
                 menu_ = self.menu_tray.addMenu(self.icon_green,projeto)
-                instar_ = menu_.addAction(self.icon_run,"Instalar/Executar")
+                instar_ = menu_.addAction(self.icon_run,"Executar")
                 instar_.setProperty("NAME",projeto)
+                report_bug = menu_.addAction(self.icon_alert,"Reportar BUG")
+                uninstall_ = menu_.addAction(self.icon_uninstall,"Desinstalar")
+                uninstall_.setProperty("NAME",projeto)
+                uninstall_.triggered.connect(self.uninstall_fnc)
 
-            uninstall_ = menu_.addAction(self.icon_uninstall,"Desinstalar")
-            uninstall_.setProperty("NAME",projeto)
+
             self.ref_tray.append(menu_)
             instar_.triggered.connect(self.abrirprograma_fnc)
-            uninstall_.triggered.connect(self.uninstall_fnc)
+
 
         #Adciona QAction Saida do Sistema
         self.menu_tray.addSeparator()
@@ -192,7 +197,9 @@ class janela_dev(QtWidgets.QMainWindow):
         self.icon_check = QtGui.QIcon(check_path)
         white_path = self.controlador.get_main_dir() + "/im/white_light-icon.png"
         self.icon_white = QtGui.QIcon(white_path)
-
+        alert_path = self.controlador.get_main_dir() + "/im/alert_icon.png"
+        self.icon_alert = QtGui.QIcon(alert_path)
+        self.usuario_pc = getpass.getuser()
         self.tray_ = QtWidgets.QSystemTrayIcon(icon)
         self.app = app_
         #inicializando a janela de edicao
@@ -230,8 +237,29 @@ class janela_dev(QtWidgets.QMainWindow):
             self.controlador.instalar_executar_projeto(nome)
             self.popula_tray()
         self.instar_fnc = abrir_progama
-        #def hovered_info():
 
+        def report_bug():
+            objeto_ = self.sender()
+            nome_projeto =objeto_.property("NAME")
+            #self.usuario_pc
+            '''caixa_texto = QInputDialog()
+            caixa_texto.resize(1000, 1000)
+            texto,ok = caixa_texto.getText(self,'BUG report','Descreva o Bug: ')
+            '''
+            dlg =  QInputDialog(self)
+            dlg.setInputMode( QInputDialog.TextInput)
+            dlg.setLabelText("Descreva o Bug:")
+            dlg.resize(500,200)
+            ok = dlg.exec_()
+            texto = dlg.textValue()
+            if ok:
+                self.controlador.reportar_bug(nome_projeto,self.usuario_pc,texto)
+                print texto
+
+            else:
+                print "erro"
+            #self.controlador.
+        self.reportbug_fnc = report_bug
         def uninstall_projeto():
             objeto_ = self.sender()
             nome =objeto_.property("NAME")
@@ -364,8 +392,8 @@ class janela_dev(QtWidgets.QMainWindow):
         self.timer_.start(self.controlador.t_atuali)
         #abrindo a tray
         self.tray_.setContextMenu(self.menu_tray)
-        nome = getpass.getuser()
-        nome = " ".join(nome.split("."))
+
+        nome = " ".join(self.usuario_pc.split("."))
         self.tray_.setToolTip("Ola {0}, eu sou o UPDATER".format(nome))
         self.tray_.show()
 
@@ -422,6 +450,7 @@ class janela_dev(QtWidgets.QMainWindow):
                 instar_ = menu_.addAction(self.icon_run,"Executar")
                 instar_.setProperty("NAME",projeto)
                 exclude_ = menu_.addAction(self.icon_config,"Editar/Excluir")
+                report_bug = menu_.addAction(self.icon_alert,"Reportar BUG")
                 uninstall_ = menu_.addAction(self.icon_uninstall,"Desinstalar")
                 uninstall_.setProperty("NAME",projeto)
                 uninstall_.triggered.connect(self.uninstall_fnc)
@@ -441,13 +470,15 @@ class janela_dev(QtWidgets.QMainWindow):
                 instar_ = menu_.addAction(self.icon_run,"Executar")
                 instar_.setProperty("NAME",projeto)
                 exclude_ = menu_.addAction(self.icon_config,"Editar/Excluir")
+                report_bug = menu_.addAction(self.icon_alert,"Reportar BUG")
+                report_bug.setProperty("NAME",projeto)
+                report_bug.triggered.connect(self.reportbug_fnc)
                 uninstall_ = menu_.addAction(self.icon_uninstall,"Desinstalar")
                 uninstall_.setProperty("NAME",projeto)
                 uninstall_.triggered.connect(self.uninstall_fnc)
 
 
             #instar_ = menu_.addAction(self.icon_run,"Instalar/Executar")
-
             #exclude_ = menu_.addAction(self.icon_config,"Editar/Excluir")
             exclude_.setProperty("NAME",projeto)
             #instar_.hovered.connect(QToolTip.showText("TESTE"))
@@ -589,5 +620,4 @@ r2=QtSqlConnector(None,"SQLITE",{"db":":memory:"},nameConnection="memory")
 app = QtWidgets.QApplication([])
 app.setQuitOnLastWindowClosed(False)
 x = tela_inicial(app)
-#x.show()
 app.exec_()

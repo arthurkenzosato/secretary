@@ -294,6 +294,10 @@ class secretary(QObject):
         lista_dados_projeto = self.eq_.Query_Result(query_table_projeto)
         return lista_dados_projeto[0]
 
+    def reportar_bug(self,nome_projeto,usuario,texto) :
+		query_inserir_bug = u"REPLACE INTO python.updater_bugs VALUES ('{0}','{1}','{2}','{3}');".format(unicode(nome_projeto),unicode(self.data_agora()),unicode(usuario),unicode(texto))
+		self.eq_.Query_no_Result(query_inserir_bug)
+
     #VERIFICA se projeto ja existe ou Faz o CADASTRO do projeto(NEW)
     def verifica_deploy(self,nome_projeto,parametros_projeto={}):
         #CADASTRA projeto

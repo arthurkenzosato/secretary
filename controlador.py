@@ -155,6 +155,9 @@ class controlador(QObject):
         self.secretaria.atualizar_configs(nome_projeto,new_configs)
         self.secretaria.modificar_dados_projeto(nome_projeto,diretorio,repositorio,tiporepositorio,executavel,new_configs)
 
+    def reportar_bug(self,nome_projeto,usuario,text_descricao):
+        self.secretaria.reportar_bug(nome_projeto,usuario,text_descricao)
+
     def deploy(self,nome_projeto):
         verifica = self.secretaria.tem_projeto(nome_projeto)
         if(verifica==False):
