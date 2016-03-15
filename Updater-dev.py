@@ -77,9 +77,32 @@ class tela_cliente(QtWidgets.QMainWindow):
         self.menu_tray = QtWidgets.QMenu()
         self.tray_cliente.setContextMenu(self.menu_tray)
         nome=getpass.getuser()
+        self.usuario_pc = nome
         nome = " ".join(nome.split("."))
         self.tray_cliente.setToolTip("Ola {0} ".format(nome))
         self.tray_cliente.show()
+        def report_bug():
+            objeto_ = self.sender()
+            nome_projeto =objeto_.property("NAME")
+            #self.usuario_pc
+            '''caixa_texto = QInputDialog()
+            caixa_texto.resize(1000, 1000)
+            texto,ok = caixa_texto.getText(self,'BUG report','Descreva o Bug: ')
+            '''
+            dlg =  QInputDialog(self)
+            dlg.setInputMode( QInputDialog.TextInput)
+            dlg.setLabelText("Descreva o Bug:")
+            dlg.resize(500,200)
+            ok = dlg.exec_()
+            texto = dlg.textValue()
+            if ok:
+                self.controlador.reportar_bug(nome_projeto,self.usuario_pc,texto)
+                print texto
+
+            else:
+                print "erro"
+            #self.controlador.
+        self.reportbug_fnc = report_bug
 
         #acrescentar funcao de abrir programa
         def abrir_progama():
@@ -143,6 +166,8 @@ class tela_cliente(QtWidgets.QMainWindow):
                 instar_ = menu_.addAction(self.icon_run,"Executar")
                 instar_.setProperty("NAME",projeto)
                 report_bug = menu_.addAction(self.icon_alert,"Reportar BUG")
+                report_bug.setProperty("NAME",projeto)
+                report_bug.triggered.connect(self.reportbug_fnc)
                 uninstall_ = menu_.addAction(self.icon_uninstall,"Desinstalar")
                 uninstall_.setProperty("NAME",projeto)
                 uninstall_.triggered.connect(self.uninstall_fnc)
@@ -451,6 +476,8 @@ class janela_dev(QtWidgets.QMainWindow):
                 instar_.setProperty("NAME",projeto)
                 exclude_ = menu_.addAction(self.icon_config,"Editar/Excluir")
                 report_bug = menu_.addAction(self.icon_alert,"Reportar BUG")
+                report_bug.setProperty("NAME",projeto)
+                report_bug.triggered.connect(self.reportbug_fnc)
                 uninstall_ = menu_.addAction(self.icon_uninstall,"Desinstalar")
                 uninstall_.setProperty("NAME",projeto)
                 uninstall_.triggered.connect(self.uninstall_fnc)
@@ -488,6 +515,7 @@ class janela_dev(QtWidgets.QMainWindow):
             exclude_.triggered.connect(self.preedit_fnc)
             instar_.triggered.connect(self.instar_fnc)
 
+    
 
         #Adciona QAction Saida do Sistema
         self.menu_tray.addSeparator()
